@@ -1,7 +1,7 @@
 var ruleList, addinMode, LogMode, bNoSigforSub, addSigifNewRec, hideaddininfomsg, multiplesig, domainList, LogModeTemp;
 LogMode = false;
 LogModeTemp =  false; 
-var LogFromAddress = 'demo@sigmails.com'/*'vinit.p@gegadyne.com'*/;
+var LogFromAddress = 'info@chair555.onmicrosoft.com'/*'vinit.p@gegadyne.com'*/;
 var sPrvFromAddress='';
 var sSelectedFromAddress='';
 var sNewFromAddress='';
