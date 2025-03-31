@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<meta name="robots" content="noindex, nofollow, noarchive" />
+    <title>Sigsync Signatures</title>
+	<link type="text/css" rel="stylesheet" href="Insertsig_deploy.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/1.0/fabric.min.css" />
+	<link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/1.0/fabric.components.min.css" />
+	<script src="jquery.fabriclib.js" type="text/javascript"></script>
+	
+	<script src="lz-string.min.js" type="text/javascript"></script>
+    
+    <script src="Insertsig_deploy.js" type="text/javascript"></script>
+	
+</head>
+<body class="addin-holder">
+<div class="info-txt" id="infotxt">Click here to know Add-in configuration steps</div>
+
+<div id="showdiv">
+<div id="intro"><p>Sigsync is a centralized, company-wide Office 365 email signatures service. This client side Outlook Add-in is designed to add Signatures to your emails directly in your Outlook without routing emails through Sigsync Azure Services.<br />
+Follow the below steps to enable Sigsync client side mode signatures:<br />
+<ol>
+	<li> <a href="https://www.sigsync.com/dashboard/login.html" target="_blank">Login to Sigsync</a> dashboard</li>
+	<li> <a href="https://www.sigsync.com/kb/add-tenant.html" target="_blank">Add your Office 365 tenant</a></li>
+	<li> <a href="https://www.sigsync.com/office-365-email-signature/how-to-create-email-signature.html" target="_blank">Create your signature templates</a></li>
+	<li> <a href="https://www.sigsync.com/kb/set-signature-template-to-rule.html" target="_blank">Assign signature template</a> to Rule.</li>
+	<li> <a href="https://www.sigsync.com/kb/reload-or-refresh-sigsync-signature-outlook-add-in.html" target="_blank">Reload / Refresh Sigsync Signatures add-in</a></li></ol>
+	That's it!<br />		
+<a title="Click here to know the details" href="https://www.sigsync.com/office-365-email-signature/sigsync-signatures-client-side-outlook-add-in.html" target="_blank" rel="noopener">Click here to know the details</a></p></div>
+<div id="addinmode"></div>
+</div>
+<div id="info"></div>
+<div id="togglemode"></div>
+<div id="errorid" class="errortext"><span class="ms-Icon ms-Icon--alert"></span> Server side signature is not configured!</div>
+<div id="togglealert" class="errortext"><span class="ms-Icon ms-Icon--alert"></span> To apply the <span id="modelbl">'Cloud Mode' </span> changes close the compose window and try.</div>
+<div id="slider-container" title="Scale template display up or down"><input type="range" id="rangeSlider" min="40" max="100" step="1" value="75"></div><br>
+<div id="signature" class="ms-Grid"><div>         
+</body>
+</html>
