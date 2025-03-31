@@ -1,1 +1,1330 @@
-var _0x1ba6=["\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x73\x69\x67\x6E\x61\x74\x75\x72\x65","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6E\x6F\x6E\x65","\x69\x6E\x66\x6F","\x73\x68\x6F\x77\x64\x69\x76","\x72\x65\x61\x64\x79","\x6F\x6E\x52\x65\x61\x64\x79","\x65\x6D\x61\x69\x6C\x41\x64\x64\x72\x65\x73\x73","\x75\x73\x65\x72\x50\x72\x6F\x66\x69\x6C\x65","\x6D\x61\x69\x6C\x62\x6F\x78","\x63\x6F\x6E\x74\x65\x78\x74","\x76\x65\x72\x73\x69\x6F\x6E","\x64\x69\x61\x67\x6E\x6F\x73\x74\x69\x63\x73","\x2E","\x73\x70\x6C\x69\x74","\x30\x2E\x30\x2E\x30\x2E\x30","\x31\x33\x39\x32\x39","\x31\x36","\x62\x6C\x6F\x63\x6B","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x65\x72\x72\x6F\x72\x22\x3E\x59\x6F\x75\x72\x20\x4F\x75\x74\x6C\x6F\x6F\x6B\x20\x76\x65\x72\x73\x69\x6F\x6E\x20\x69\x73\x20\x6E\x6F\x74\x20\x63\x6F\x6D\x70\x61\x74\x69\x62\x6C\x65\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x53\x69\x67\x73\x79\x6E\x63\x20\x41\x64\x64\x2D\x69\x6E\x2E\x20\x49\x66\x20\x74\x68\x65\x20\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x20\x64\x69\x73\x70\x6C\x61\x79\x20\x69\x73\x20\x6E\x6F\x74\x20\x61\x70\x70\x65\x61\x72\x69\x6E\x67\x2C\x20\x74\x68\x65\x6E\x20\x65\x69\x74\x68\x65\x72\x20\x75\x70\x67\x72\x61\x64\x65\x20\x79\x6F\x75\x72\x20\x4F\x75\x74\x6C\x6F\x6F\x6B\x20\x6F\x72\x20\x63\x6F\x6E\x74\x61\x63\x74\x20\x3C\x61\x20\x74\x69\x74\x6C\x65\x3D\x22\x43\x6F\x6E\x74\x61\x63\x74\x20\x53\x69\x67\x73\x79\x6E\x63\x20\x73\x75\x70\x70\x6F\x72\x74\x22\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x73\x75\x70\x70\x6F\x72\x74\x2E\x68\x74\x6D\x6C\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x72\x65\x6C\x3D\x22\x6E\x6F\x6F\x70\x65\x6E\x65\x72\x22\x3E\x53\x69\x67\x73\x79\x6E\x63\x20\x73\x75\x70\x70\x6F\x72\x74\x3C\x2F\x61\x3E\x3C\x2F\x70\x3E","\x66\x72\x6F\x6D\x45\x6D\x61\x69\x6C\x3D","\x50\x4F\x53\x54","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x63\x6C\x69\x65\x6E\x74\x61\x64\x64\x69\x6E\x2F\x49\x6E\x73\x65\x72\x74\x73\x69\x67\x2E\x70\x68\x70","\x6F\x70\x65\x6E","\x43\x6F\x6E\x74\x65\x6E\x74\x2D\x54\x79\x70\x65","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x78\x2D\x77\x77\x77\x2D\x66\x6F\x72\x6D\x2D\x75\x72\x6C\x65\x6E\x63\x6F\x64\x65\x64","\x73\x65\x74\x52\x65\x71\x75\x65\x73\x74\x48\x65\x61\x64\x65\x72","\x73\x65\x6E\x64","\x6F\x6E\x6C\x6F\x61\x64","\x72\x65\x73\x70\x6F\x6E\x73\x65\x54\x65\x78\x74","\x70\x61\x72\x73\x65","\x65\x72\x72\x6F\x72","\x73\x75\x63\x63\x65\x73\x73","\x64\x6C\x69\x73\x74","\x61\x64\x64\x69\x6E\x6D\x6F\x64\x65","\x69\x74\x65\x6D","","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x69\x6E\x66\x6F\x72\x6D\x61\x74\x69\x6F\x6E\x22\x3E\x59\x6F\x75\x72\x20\x61\x63\x63\x6F\x75\x6E\x74\x20\x69\x73\x20\x6E\x6F\x74\x20\x63\x6F\x6E\x66\x69\x67\x75\x72\x65\x64\x20\x77\x69\x74\x68\x20\x53\x69\x67\x73\x79\x6E\x63\x20\x45\x6D\x61\x69\x6C\x20\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x73\x20\x66\x6F\x72\x20\x4F\x66\x66\x69\x63\x65\x20\x33\x36\x35\x2E\x20\x59\x6F\x75\x20\x68\x61\x76\x65\x20\x74\x6F\x20\x63\x72\x65\x61\x74\x65\x20\x61\x63\x63\x6F\x75\x6E\x74\x20\x77\x69\x74\x68\x20\x53\x69\x67\x73\x79\x6E\x63\x20\x61\x6E\x64\x20\x63\x6F\x6E\x66\x69\x67\x75\x72\x65\x20\x79\x6F\x75\x72\x20\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x2E\x3C\x2F\x70\x3E\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x69\x6E\x66\x6F\x72\x6D\x61\x74\x69\x6F\x6E\x22\x3E\x26\x67\x74\x3B\x26\x67\x74\x3B\x20\x3C\x61\x20\x74\x69\x74\x6C\x65\x3D\x22\x48\x6F\x77\x20\x74\x6F\x20\x61\x64\x64\x20\x45\x6D\x61\x69\x6C\x20\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x73\x22\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x6B\x62\x2F\x68\x6F\x77\x2D\x74\x6F\x2D\x61\x64\x64\x2D\x65\x6D\x61\x69\x6C\x2D\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x2E\x68\x74\x6D\x6C\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x72\x65\x6C\x3D\x22\x6E\x6F\x6F\x70\x65\x6E\x65\x72\x22\x3E\x43\x6C\x69\x63\x6B\x20\x68\x65\x72\x65\x3C\x2F\x61\x3E\x20\x66\x6F\x72\x20\x73\x74\x65\x70\x73\x20\x74\x6F\x20\x61\x64\x64\x20\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x20\x74\x6F\x20\x79\x6F\x75\x72\x20\x65\x6D\x61\x69\x6C\x73\x2E\x3C\x2F\x70\x3E\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x69\x6E\x66\x6F\x72\x6D\x61\x74\x69\x6F\x6E\x22\x3E\x26\x67\x74\x3B\x26\x67\x74\x3B\x20\x3C\x61\x20\x74\x69\x74\x6C\x65\x3D\x22\x53\x69\x67\x73\x79\x6E\x63\x20\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x20\x61\x64\x64\x2D\x69\x6E\x22\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x6B\x62\x2F\x65\x6D\x61\x69\x6C\x2D\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x73\x2D\x61\x64\x64\x2D\x69\x6E\x2D\x66\x6F\x72\x2D\x6F\x75\x74\x6C\x6F\x6F\x6B\x2E\x68\x74\x6D\x6C\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x72\x65\x6C\x3D\x22\x6E\x6F\x6F\x70\x65\x6E\x65\x72\x22\x3E\x43\x6C\x69\x63\x6B\x20\x68\x65\x72\x65\x3C\x2F\x61\x3E\x20\x74\x6F\x20\x6B\x6E\x6F\x77\x20\x6D\x6F\x72\x65\x20\x61\x62\x6F\x75\x74\x20\x53\x69\x67\x73\x79\x6E\x63\x20\x4F\x75\x74\x6C\x6F\x6F\x6B\x20\x41\x64\x64\x2D\x69\x6E\x2E\x3C\x2F\x70\x3E","\x70\x72\x65\x76\x69\x65\x77","\x69\x6E\x74\x72\x6F","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x69\x6E\x66\x6F\x76\x69\x65\x77\x22\x3E\x41\x64\x64\x2D\x69\x6E\x20\x69\x73\x20\x73\x65\x74\x20\x74\x6F\x20\x27\x3C\x73\x74\x72\x6F\x6E\x67\x3E\x3C\x73\x70\x61\x6E\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x66\x66\x30\x30\x30\x30\x22\x3E\x50\x72\x65\x76\x69\x65\x77\x20\x4F\x6E\x6C\x79\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x73\x74\x72\x6F\x6E\x67\x3E\x27\x20\x6D\x6F\x64\x65\x2E\x3C\x62\x72\x20\x2F\x3E\x20\x3C\x61\x20\x74\x69\x74\x6C\x65\x3D\x22\x45\x6E\x61\x62\x6C\x65\x20\x2F\x20\x44\x69\x73\x61\x62\x6C\x65\x20\x70\x72\x65\x76\x69\x65\x77\x20\x6D\x6F\x64\x65\x22\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x6B\x62\x2F\x65\x6E\x61\x62\x6C\x65\x2D\x70\x72\x65\x76\x69\x65\x77\x2D\x6F\x6E\x6C\x79\x2D\x6D\x6F\x64\x65\x2D\x66\x6F\x72\x2D\x73\x69\x67\x73\x79\x6E\x63\x2D\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x73\x2E\x68\x74\x6D\x6C\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x72\x65\x6C\x3D\x22\x6E\x6F\x6F\x70\x65\x6E\x65\x72\x22\x3E\x43\x6C\x69\x63\x6B\x20\x68\x65\x72\x65\x3C\x2F\x61\x3E\x20\x74\x6F\x20\x63\x68\x61\x6E\x67\x65\x20\x74\x68\x65\x20\x6D\x6F\x64\x65\x3C\x2F\x70\x3E","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x69\x6E\x66\x6F\x76\x69\x65\x77\x22\x3E\x3C\x61\x20\x74\x69\x74\x6C\x65\x3D\x22\x45\x6E\x61\x62\x6C\x65\x20\x2F\x20\x44\x69\x73\x61\x62\x6C\x65\x20\x70\x72\x65\x76\x69\x65\x77\x20\x6D\x6F\x64\x65\x22\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x6B\x62\x2F\x65\x6E\x61\x62\x6C\x65\x2D\x70\x72\x65\x76\x69\x65\x77\x2D\x6F\x6E\x6C\x79\x2D\x6D\x6F\x64\x65\x2D\x66\x6F\x72\x2D\x73\x69\x67\x73\x79\x6E\x63\x2D\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x73\x2E\x68\x74\x6D\x6C\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x72\x65\x6C\x3D\x22\x6E\x6F\x6F\x70\x65\x6E\x65\x72\x22\x3E\x43\x6C\x69\x63\x6B\x20\x68\x65\x72\x65\x3C\x2F\x61\x3E\x20\x74\x6F\x20\x63\x68\x61\x6E\x67\x65\x20\x74\x68\x65\x20\x41\x64\x64\x2D\x69\x6E\x20\x6D\x6F\x64\x65\x20\x74\x6F\x20\x27\x3C\x73\x74\x72\x6F\x6E\x67\x3E\x3C\x73\x70\x61\x6E\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x20\x23\x66\x66\x30\x30\x30\x30\x22\x3E\x50\x72\x65\x76\x69\x65\x77\x20\x4F\x6E\x6C\x79\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x73\x74\x72\x6F\x6E\x67\x3E\x27\x3C\x2F\x70\x3E","\x74\x72\x75\x65","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x65\x6D\x70\x74\x79\x6C\x69\x73\x74\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x3A\x23\x66\x37\x66\x37\x66\x37\x3B\x70\x61\x64\x64\x69\x6E\x67\x3A\x31\x30\x70\x78\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x76\x61\x6C","\x23\x65\x6D\x70\x74\x79\x6C\x69\x73\x74","\x65\x6D\x70\x74\x79\x6C\x69\x73\x74","\x74\x65\x6D\x70\x6C\x61\x74\x65","\x74\x65\x6D\x70\x6C\x61\x74\x65\x6E\x61\x6D\x65","\x73\x75\x62\x74\x65\x6D\x70\x6C\x61\x74\x65","\x73\x75\x62\x74\x65\x6D\x70\x6C\x61\x74\x65\x6E\x61\x6D\x65","\x66\x61\x6C\x73\x65","\x65\x61\x63\x68","\x69\x6E\x6C\x69\x6E\x65\x2D\x62\x6C\x6F\x63\x6B","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x77\x61\x72\x6E\x69\x6E\x67\x22\x3E\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x28\x73\x29\x20\x70\x72\x65\x76\x69\x65\x77\x20\x69\x73\x20\x6D\x69\x73\x73\x69\x6E\x67\x2E\x3C\x2F\x70\x3E\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x77\x61\x72\x6E\x69\x6E\x67\x22\x3E\x31\x2E\x20\x45\x6E\x73\x75\x72\x65\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x68\x61\x76\x65\x20\x63\x72\x65\x61\x74\x65\x64\x20\x79\x6F\x75\x72\x20\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x20\x69\x6E\x20\x3C\x61\x20\x74\x69\x74\x6C\x65\x3D\x22\x53\x69\x67\x73\x79\x6E\x63\x20\x45\x6D\x61\x69\x6C\x20\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x73\x20\x66\x6F\x72\x20\x4F\x66\x66\x69\x63\x65\x20\x33\x36\x35\x22\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x6B\x62\x2F\x68\x6F\x77\x2D\x74\x6F\x2D\x61\x64\x64\x2D\x65\x6D\x61\x69\x6C\x2D\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x2E\x68\x74\x6D\x6C\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x72\x65\x6C\x3D\x22\x6E\x6F\x6F\x70\x65\x6E\x65\x72\x22\x3E\x53\x69\x67\x73\x79\x6E\x63\x20\x45\x6D\x61\x69\x6C\x20\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x73\x20\x66\x6F\x72\x20\x4F\x66\x66\x69\x63\x65\x20\x33\x36\x35\x3C\x2F\x61\x3E\x2E\x3C\x62\x72\x20\x2F\x3E\x32\x2E\x20\x45\x6E\x73\x75\x72\x65\x20\x74\x68\x61\x74\x20\x79\x6F\x75\x20\x68\x61\x76\x65\x20\x6E\x6F\x74\x20\x65\x78\x63\x6C\x75\x64\x65\x64\x20\x74\x68\x69\x73\x20\x73\x65\x6E\x64\x65\x72\x20\x65\x6D\x61\x69\x6C\x20\x61\x64\x64\x72\x65\x73\x73\x20\x69\x6E\x20\x79\x6F\x75\x72\x20\x3C\x61\x20\x74\x69\x74\x6C\x65\x3D\x22\x53\x74\x65\x70\x73\x20\x74\x6F\x20\x73\x65\x74\x20\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x20\x52\x75\x6C\x65\x73\x22\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x69\x67\x73\x79\x6E\x63\x2E\x63\x6F\x6D\x2F\x6B\x62\x2F\x68\x6F\x77\x2D\x74\x6F\x2D\x73\x65\x74\x2D\x72\x75\x6C\x65\x73\x2E\x68\x74\x6D\x6C\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x72\x65\x6C\x3D\x22\x6E\x6F\x6F\x70\x65\x6E\x65\x72\x22\x3E\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x20\x72\x75\x6C\x65\x3C\x2F\x61\x3E\x2E\x3C\x2F\x70\x3E","\x61\x70\x70\x65\x6E\x64","\x62\x6F\x64\x79","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x64","\x6E\x65\x77\x69\x64","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x3C\x64\x69\x76\x20\x69\x64\x3D","\x3E","\x3C\x2F\x64\x69\x76\x3E","\x73\x63\x72\x6F\x6C\x6C\x48\x65\x69\x67\x68\x74","\x23","\x73\x63\x72\x6F\x6C\x6C\x57\x69\x64\x74\x68","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22","\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6C\x65\x61\x72\x3A\x62\x6F\x74\x68\x3B\x74\x72\x61\x6E\x73\x66\x6F\x72\x6D\x3A\x73\x63\x61\x6C\x65\x28","\x29\x3B\x74\x72\x61\x6E\x73\x66\x6F\x72\x6D\x2D\x6F\x72\x69\x67\x69\x6E\x3A\x6C\x65\x66\x74\x20\x74\x6F\x70\x3B\x68\x65\x69\x67\x68\x74\x3A\x20","\x70\x78\x3B\x22\x3E","\x3C\x2F\x64\x69\x76\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x6E\x61\x6D\x65\x3D\x22\x69\x6E\x73\x65\x72\x74\x62\x74\x6E\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x73\x65\x72\x74\x73\x69\x67\x22\x20\x64\x61\x74\x61\x2D\x69\x64\x3D\x22","\x22\x20\x3E\x41\x64\x64\x20\x54\x68\x69\x73\x20\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E","\x68\x65\x69\x67\x68\x74\x3A","\x70\x78\x3B","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x6C\x6F\x67","\x74\x6F","\x73\x75\x62","\x73\x74\x61\x74\x75\x73","\x46\x61\x69\x6C\x65\x64","\x41\x73\x79\x6E\x63\x52\x65\x73\x75\x6C\x74\x53\x74\x61\x74\x75\x73","\x6D\x65\x73\x73\x61\x67\x65","\x6C\x65\x6E\x67\x74\x68","\x76\x61\x6C\x75\x65","\x67\x65\x74\x41\x73\x79\x6E\x63","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6E\x66\x6F\x2D\x6D\x73\x67\x73\x20\x69\x6E\x66\x6F\x2D\x69\x6E\x66\x6F\x72\x6D\x61\x74\x69\x6F\x6E\x22\x3E\x45\x6E\x74\x65\x72\x20\x61\x6E\x20\x22\x45\x6D\x61\x69\x6C\x20\x61\x64\x64\x72\x65\x73\x73\x22\x20\x69\x6E\x20\x3C\x62\x3E\x22\x54\x6F\x22\x3C\x2F\x62\x3E\x20\x66\x69\x65\x6C\x64\x20\x74\x6F\x20\x70\x72\x65\x76\x69\x65\x77\x20\x74\x68\x65\x20\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x2E\x3C\x2F\x70\x3E","\x74\x65\x78\x74","\x65\x65\x65","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x40","\x63\x68\x61\x72\x41\x74","\x63\x68\x61\x72\x43\x6F\x64\x65\x41\x74","\x6F\x72\x67\x74\x79\x70\x65","\x61\x6C\x6C","\x69\x6E\x74\x65\x72\x6E\x61\x6C","\x69\x6E\x64\x65\x78\x4F\x66","\x65\x78\x74\x65\x72\x6E\x61\x6C","\x61\x64\x64\x6B\x65\x79\x77\x6F\x72\x64\x6C\x69\x73\x74","\x70\x61\x72\x73\x65\x4A\x53\x4F\x4E","\x73\x65\x61\x72\x63\x68\x74\x79\x70\x65","\x73\x62","\x70\x68\x72\x61\x73\x65","\x73","\x62","\x65\x78\x63\x6C\x75\x64\x65\x6B\x65\x79\x77\x6F\x72\x64\x6C\x69\x73\x74","\x72\x61","\x72\x6E\x61","\x6C\x69\x73\x74\x22\x3E\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x63\x6F\x6E\x2D\x68\x6F\x6C\x64\x65\x72\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x69\x72\x73\x74\x2D\x69\x63\x6F\x6E\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x3A\x23","\x22\x20\x74\x69\x74\x6C\x65\x3D\x22","\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x70\x3E\x3C\x2F\x64\x69\x76\x3E","\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x74\x72\x61\x6E\x73\x66\x6F\x72\x6D\x3A\x73\x63\x61\x6C\x65\x28","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x63\x6F\x6E\x2D\x68\x6F\x6C\x64\x65\x72\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x69\x72\x73\x74\x2D\x69\x63\x6F\x6E\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x3A\x23","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x70\x3E","\x6C\x69\x73\x74","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x63\x6F\x6E\x2D\x68\x6F\x6C\x64\x65\x72\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x6D\x70\x74\x79\x2D\x69\x63\x6F\x6E\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x3A\x23","\x3B\x64\x69\x73\x70\x6C\x61\x79\x3A\x69\x6E\x6C\x69\x6E\x65\x3B\x70\x61\x64\x64\x69\x6E\x67\x3A\x32\x70\x78\x20\x38\x70\x78\x20\x35\x70\x78\x22\x20\x74\x69\x74\x6C\x65\x3D\x22","\x3C\x2F\x73\x70\x61\x6E\x3E","\x3C\x2F\x70\x3E","\x37\x35\x35\x31\x64\x33","\x37\x35\x35\x30\x64\x31","\x32\x63\x38\x35\x65\x63","\x30\x62\x62\x33\x62\x32","\x32\x30\x38\x30\x62\x64","\x64\x61\x35\x63\x33\x38","\x38\x61\x34\x31\x38\x33","\x33\x63\x38\x64\x65\x62","\x38\x43\x38\x37\x37\x35","\x34\x65\x61\x39\x63\x65","\x32\x36\x37\x34\x39\x34","\x62\x34\x61\x31\x31\x65","\x62\x63\x34\x37\x32\x36","\x38\x62\x34\x38\x38\x34","\x35\x63\x33\x64\x61\x61","\x37\x62\x34\x36\x37\x36","\x36\x64\x38\x36\x38\x36","\x61\x64\x36\x66\x33\x65","\x61\x33\x38\x36\x34\x31","\x39\x36\x33\x31\x37\x31","\x34\x30\x39\x36\x62\x39","\x38\x30\x39\x38\x32\x37","\x62\x33\x30\x34\x31\x34","\x38\x33\x61\x35\x33\x39","\x61\x37\x33\x36\x34\x34","\x32\x39\x37\x66\x61\x37","\x62\x31\x39\x39\x33\x35","\x63\x6C\x69\x63\x6B","\x2E\x69\x6E\x73\x65\x72\x74\x73\x69\x67","\x64\x61\x74\x61\x2D\x69\x64","\x61\x74\x74\x72","\x68\x74\x6D\x6C","\x73\x65\x74\x53\x69\x67\x6E\x61\x74\x75\x72\x65\x41\x73\x79\x6E\x63","\x59\x65\x73\x43\x6C\x69\x65\x6E\x74","\x73\x65\x74\x41\x73\x79\x6E\x63","\x69\x6E\x74\x65\x72\x6E\x65\x74\x48\x65\x61\x64\x65\x72\x73","\x67\x65\x74\x54\x79\x70\x65\x41\x73\x79\x6E\x63","\x6F\x6E","\x2E\x69\x6E\x66\x6F\x2D\x74\x78\x74","\x61\x63\x74\x69\x76\x65","\x74\x6F\x67\x67\x6C\x65","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x69\x6E\x66\x6F\x74\x78\x74","\x43\x6C\x69\x63\x6B\x20\x68\x65\x72\x65\x20\x74\x6F\x20\x68\x69\x64\x65\x20\x74\x68\x65\x20\x73\x74\x65\x70\x73","\x61\x64\x64","\x43\x6C\x69\x63\x6B\x20\x68\x65\x72\x65\x20\x74\x6F\x20\x6B\x6E\x6F\x77\x20\x41\x64\x64\x2D\x69\x6E\x20\x63\x6F\x6E\x66\x69\x67\x75\x72\x61\x74\x69\x6F\x6E\x20\x73\x74\x65\x70\x73","\x72\x65\x6D\x6F\x76\x65"];var sub,bodyContent,domainList,ruleList,newHeight,sigHeight,sigWidth,scaleVal,sigList,addinMode,outlookSup,outlookVer;var count=0;var sigTagHeight=0;var toEmail=[];(function(){var _0xe66ex10;Office[_0x1ba6[8]](function(){$(document)[_0x1ba6[7]](function(){document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];document[_0x1ba6[3]](_0x1ba6[6])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];_0xe66ex11()})});function _0xe66ex11(){var _0xe66ex12=Office[_0x1ba6[12]][_0x1ba6[11]][_0x1ba6[10]][_0x1ba6[9]];outlookVer= Office[_0x1ba6[12]][_0x1ba6[14]][_0x1ba6[13]];var _0xe66ex13=outlookVer[_0x1ba6[16]](_0x1ba6[15]);if(outlookVer!= _0x1ba6[17]){if((_0xe66ex13[2]< _0x1ba6[18]&& _0xe66ex13[0]== _0x1ba6[19])|| (_0xe66ex13[0]< _0x1ba6[19])){document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20];document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[21]]= _0x1ba6[22]}};var _0xe66ex14= new XMLHttpRequest();var _0xe66ex15=_0x1ba6[23]+ _0xe66ex12;_0xe66ex14[_0x1ba6[26]](_0x1ba6[24],_0x1ba6[25],true);_0xe66ex14[_0x1ba6[29]](_0x1ba6[27],_0x1ba6[28]);_0xe66ex14[_0x1ba6[30]](_0xe66ex15);_0xe66ex14[_0x1ba6[31]]= function(){var _0xe66ex16=JSON[_0x1ba6[33]](this[_0x1ba6[32]]);if(_0xe66ex16[_0x1ba6[34]]){}else {ruleList= _0xe66ex16[_0x1ba6[35]];domainList= _0xe66ex16[_0x1ba6[36]];addinMode= _0xe66ex16[_0x1ba6[37]];_0xe66ex18()}}}let _0xe66ex17=setInterval(_0xe66ex18,1000);function _0xe66ex18(){if(Office[_0x1ba6[12]]){if(Office[_0x1ba6[12]][_0x1ba6[11]]){if(Office[_0x1ba6[12]][_0x1ba6[11]][_0x1ba6[38]]){clearInterval(_0xe66ex17);_0xe66ex10= Office[_0x1ba6[12]][_0x1ba6[11]][_0x1ba6[38]];_0xe66ex19(domainList,ruleList)}}}}function _0xe66ex19(domainList,ruleList){if(ruleList== _0x1ba6[39]|| domainList== _0x1ba6[39]){document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[21]]+= _0x1ba6[40];return};if(addinMode== _0x1ba6[41]){setInterval(_0xe66ex2a,1500);document[_0x1ba6[3]](_0x1ba6[42])[_0x1ba6[21]]+= _0x1ba6[43]}else {document[_0x1ba6[3]](_0x1ba6[42])[_0x1ba6[21]]+= _0x1ba6[44];var _0xe66ex1a=_0x1ba6[39];var _0xe66ex1b=_0x1ba6[39];var _0xe66ex1c=_0x1ba6[45];var _0xe66ex1d=_0x1ba6[39];var _0xe66ex1e=_0x1ba6[39];var _0xe66ex1f=_0x1ba6[39];var _0xe66ex20=_0x1ba6[39];document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[21]]= _0x1ba6[46];$(_0x1ba6[48])[_0x1ba6[47]](_0x1ba6[39]);document[_0x1ba6[3]](_0x1ba6[49])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];$[_0x1ba6[55]](ruleList,function(_0xe66ex21,_0xe66ex22){if(_0xe66ex22[_0x1ba6[50]]!= _0x1ba6[39]&& _0xe66ex22[_0x1ba6[51]]!= _0x1ba6[39]){_0xe66ex1a= _0xe66ex22[_0x1ba6[50]];_0xe66ex1b= _0xe66ex22[_0x1ba6[51]];_0xe66ex1d= _0x1ba6[50]+ _0xe66ex21};if(_0xe66ex22[_0x1ba6[52]]!= _0x1ba6[39]&& _0xe66ex22[_0x1ba6[53]]!= _0x1ba6[39]){_0xe66ex1f= _0xe66ex22[_0x1ba6[52]];_0xe66ex20= _0xe66ex22[_0x1ba6[53]];_0xe66ex1e= _0x1ba6[52]+ _0xe66ex21};if(_0xe66ex1a!= _0x1ba6[39]){_0xe66ex23(_0xe66ex1a,_0xe66ex1d);_0xe66ex1a= _0x1ba6[39];_0xe66ex1c= _0x1ba6[54]}else {document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20]};if(_0xe66ex1f!= _0x1ba6[39]){_0xe66ex23(_0xe66ex1f,_0xe66ex1e);_0xe66ex1f= _0x1ba6[39];_0xe66ex1c= _0x1ba6[54]}else {document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20]};_0xe66ex1a= _0x1ba6[39];_0xe66ex1f= _0x1ba6[39]});if(_0xe66ex1c== _0x1ba6[45]){document[_0x1ba6[3]](_0x1ba6[49])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[56];$(_0x1ba6[48])[_0x1ba6[58]](_0x1ba6[57])}else {$(_0x1ba6[48])[_0x1ba6[47]](_0x1ba6[39]);document[_0x1ba6[3]](_0x1ba6[49])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4]}}}function _0xe66ex23(_0xe66ex24,_0xe66ex25){sigTagHeight= 0;var _0xe66ex26=document[_0x1ba6[60]](_0x1ba6[59])[0],_0xe66ex27=document[_0x1ba6[62]](_0x1ba6[61]);_0xe66ex27[_0x1ba6[63]]= _0x1ba6[64];_0xe66ex26[_0x1ba6[65]](_0xe66ex27);document[_0x1ba6[3]](_0x1ba6[64])[_0x1ba6[21]]= _0x1ba6[66]+ _0xe66ex25+ _0x1ba6[67]+ _0xe66ex24+ _0x1ba6[68];if($(_0x1ba6[70]+ _0xe66ex25)[0][_0x1ba6[69]]!= undefined){sigHeight= $(_0x1ba6[70]+ _0xe66ex25)[0][_0x1ba6[69]]}else {sigHeight= 280};if($(_0x1ba6[70]+ _0xe66ex25)[0][_0x1ba6[71]]!= undefined){sigWidth= $(_0x1ba6[70]+ _0xe66ex25)[0][_0x1ba6[71]]}else {sigWidth= 287};if(sigWidth> 287){scaleVal= 287/ sigWidth}else {scaleVal= 1};newHeight= sigHeight* scaleVal;removeEl= document[_0x1ba6[3]](_0x1ba6[64]);removeEl[_0x1ba6[73]][_0x1ba6[72]](removeEl);document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[21]]+= _0x1ba6[74]+ _0xe66ex25+ _0x1ba6[75]+ scaleVal+ _0x1ba6[76]+ newHeight+ _0x1ba6[77]+ _0xe66ex24+ _0x1ba6[78]+ _0xe66ex25+ _0x1ba6[79];sigTagHeight= sigTagHeight+ newHeight;document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[82]](_0x1ba6[1],_0x1ba6[80]+ sigTagHeight+ _0x1ba6[81]);document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20]}function _0xe66ex28(_0xe66ex29){console[_0x1ba6[83]](_0xe66ex29)}function _0xe66ex2a(){_0xe66ex10= Office[_0x1ba6[12]][_0x1ba6[11]][_0x1ba6[38]];var _0xe66ex2b,_0xe66ex2c,_0xe66ex2d;_0xe66ex2b= _0xe66ex10[_0x1ba6[84]];_0xe66ex2c= _0xe66ex10[_0x1ba6[85]];_0xe66ex2d= _0xe66ex10[_0x1ba6[59]];if(_0xe66ex2b){_0xe66ex2b[_0x1ba6[92]](function(_0xe66ex2e){if(_0xe66ex2e[_0x1ba6[86]]== Office[_0x1ba6[88]][_0x1ba6[87]]){_0xe66ex28(_0xe66ex2e[_0x1ba6[34]][_0x1ba6[89]])}else {toEmail[_0x1ba6[90]]= 0;for(var _0xe66ex2f=0;_0xe66ex2f< _0xe66ex2e[_0x1ba6[91]][_0x1ba6[90]];_0xe66ex2f++){count= 1;toEmail[_0xe66ex2f]= _0xe66ex2e[_0x1ba6[91]][_0xe66ex2f][_0x1ba6[9]]}}})};if(count== 0){document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[21]]= _0x1ba6[93];document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20];document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4]}else {document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[21]]= _0x1ba6[39];document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];count= 0};if(_0xe66ex2c){_0xe66ex2c[_0x1ba6[92]](function(_0xe66ex2e){if(_0xe66ex2e[_0x1ba6[86]]== Office[_0x1ba6[88]][_0x1ba6[87]]){_0xe66ex28(_0xe66ex2e[_0x1ba6[34]][_0x1ba6[89]])}else {sub= _0x1ba6[39];sub= _0xe66ex2e[_0x1ba6[91]]}})};if(_0xe66ex2d){_0xe66ex2d[_0x1ba6[92]](_0x1ba6[94],function(_0xe66ex2e){if(_0xe66ex2e[_0x1ba6[86]]== Office[_0x1ba6[88]][_0x1ba6[87]]){_0xe66ex28(_0xe66ex2e[_0x1ba6[34]][_0x1ba6[89]])}else {bodyContent= _0x1ba6[39];bodyContent= _0xe66ex2e[_0x1ba6[91]]}})};_0xe66ex30(toEmail,sub,bodyContent,domainList,ruleList)}function _0xe66ex30(toEmail,sub,bodyContent,domainList,ruleList){if(ruleList== _0x1ba6[39]|| domainList== _0x1ba6[39]){document[_0x1ba6[3]](_0x1ba6[5])[_0x1ba6[21]]+= _0x1ba6[40];return};var _0xe66ex31=_0x1ba6[39];var _0xe66ex32=0;var _0xe66ex1a=_0x1ba6[39];var _0xe66ex1b=_0x1ba6[39];var _0xe66ex33=_0x1ba6[39];var _0xe66ex34=_0x1ba6[95];var _0xe66ex1c=_0x1ba6[54];var _0xe66ex1d=_0x1ba6[39];var _0xe66ex35;var _0xe66ex36;var _0xe66ex1e=_0x1ba6[39];var _0xe66ex1f=_0x1ba6[39];var _0xe66ex20=_0x1ba6[39];sigTagHeight= 0;sigList= _0x1ba6[39];document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[21]]= _0x1ba6[46];$(_0x1ba6[48])[_0x1ba6[47]](_0x1ba6[39]);document[_0x1ba6[3]](_0x1ba6[49])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];for(var _0xe66ex2f=0;_0xe66ex2f< toEmail[_0x1ba6[90]];_0xe66ex2f++){toEmail[_0xe66ex2f]= toEmail[_0xe66ex2f][_0x1ba6[96]]();_0xe66ex31= toEmail[_0xe66ex2f][_0x1ba6[16]](_0x1ba6[97])[1];_0xe66ex33= toEmail[_0xe66ex2f][_0x1ba6[98]](0);_0xe66ex34= _0xe66ex33[_0x1ba6[99]](0)% 26;_0xe66ex34= _0xe66ex3b(_0xe66ex34);$[_0x1ba6[55]](ruleList,function(_0xe66ex21,_0xe66ex22){_0xe66ex32= 0;if(_0xe66ex22[_0x1ba6[100]]!= _0x1ba6[101]){if(_0xe66ex22[_0x1ba6[100]]== _0x1ba6[102]&& domainList[_0x1ba6[103]](_0xe66ex31)>  -1){_0xe66ex32= 1}else {if(_0xe66ex22[_0x1ba6[100]]== _0x1ba6[104]&& domainList[_0x1ba6[103]](_0xe66ex31)==  -1){_0xe66ex32= 1}else {_0xe66ex32= 0}}}else {_0xe66ex32= 1};if(_0xe66ex32== 1){if(_0xe66ex22[_0x1ba6[105]]!= undefined&& _0xe66ex22[_0x1ba6[105]]!= _0x1ba6[39]){_0xe66ex35= $[_0x1ba6[106]](_0xe66ex22[_0x1ba6[105]]);$[_0x1ba6[55]](_0xe66ex35,function(_0xe66ex37,_0xe66ex38){if(_0xe66ex38[_0x1ba6[107]]= _0x1ba6[108]){if(_0xe66ex38[_0x1ba6[109]]!= _0x1ba6[39]&& ((sub[_0x1ba6[103]](_0xe66ex38[_0x1ba6[109]])==  -1)|| (bodyContent[_0x1ba6[103]](_0xe66ex38[_0x1ba6[109]])==  -1))){_0xe66ex32= 0;return}}else {if(_0xe66ex38[_0x1ba6[107]]= _0x1ba6[110]){if(_0xe66ex38[_0x1ba6[109]]!= _0x1ba6[39]&& sub[_0x1ba6[103]](_0xe66ex38[_0x1ba6[109]])==  -1){_0xe66ex32= 0;return}}else {if(_0xe66ex38[_0x1ba6[107]]= _0x1ba6[111]){if(_0xe66ex38[_0x1ba6[109]]!= _0x1ba6[39]&& bodyContent[_0x1ba6[103]](_0xe66ex38[_0x1ba6[109]])==  -1){_0xe66ex32= 0;return}}}}})}};if(_0xe66ex32== 1){if(_0xe66ex22[_0x1ba6[112]]!= undefined&& _0xe66ex22[_0x1ba6[112]]!= _0x1ba6[39]){_0xe66ex36= $[_0x1ba6[106]](_0xe66ex22[_0x1ba6[112]]);$[_0x1ba6[55]](_0xe66ex36,function(_0xe66ex39,_0xe66ex3a){if(_0xe66ex3a[_0x1ba6[107]]= _0x1ba6[108]){if(_0xe66ex3a[_0x1ba6[109]]!= _0x1ba6[39]&& ((sub[_0x1ba6[103]](_0xe66ex3a[_0x1ba6[109]])!=  -1)&& (bodyContent[_0x1ba6[103]](_0xe66ex3a[_0x1ba6[109]])!=  -1))){_0xe66ex32= 0;return}}else {if(_0xe66ex3a[_0x1ba6[107]]= _0x1ba6[110]){if(_0xe66ex3a[_0x1ba6[109]]!= _0x1ba6[39]&& sub[_0x1ba6[103]](_0xe66ex3a[_0x1ba6[109]])!=  -1){_0xe66ex32= 0;return}}else {if(_0xe66ex3a[_0x1ba6[107]]= _0x1ba6[111]){if(_0xe66ex3a[_0x1ba6[109]]!= _0x1ba6[39]&& bodyContent[_0x1ba6[103]](_0xe66ex3a[_0x1ba6[109]])!=  -1){_0xe66ex32= 0;return}}}}})}};if(_0xe66ex32== 1){if(_0xe66ex22[_0x1ba6[50]]!= _0x1ba6[39]&& _0xe66ex22[_0x1ba6[51]]!= _0x1ba6[39]){_0xe66ex1a= _0xe66ex22[_0x1ba6[50]];_0xe66ex1b= _0xe66ex22[_0x1ba6[51]];_0xe66ex1d= _0x1ba6[50]+ _0xe66ex21};if(_0xe66ex22[_0x1ba6[113]]== 2){return false}}else {_0xe66ex32== 0;if(_0xe66ex22[_0x1ba6[114]]== 2){return false}}});if(_0xe66ex1a!= _0x1ba6[39]){if(sigList[_0x1ba6[103]](_0xe66ex1b)==  -1){sigList= sigList+ _0xe66ex1b;var _0xe66ex26=document[_0x1ba6[60]](_0x1ba6[59])[0],_0xe66ex27=document[_0x1ba6[62]](_0x1ba6[61]);_0xe66ex27[_0x1ba6[63]]= _0x1ba6[64];_0xe66ex26[_0x1ba6[65]](_0xe66ex27);document[_0x1ba6[3]](_0x1ba6[64])[_0x1ba6[21]]= _0x1ba6[66]+ _0xe66ex1d+ _0x1ba6[67]+ _0xe66ex1a+ _0x1ba6[68];if($(_0x1ba6[70]+ _0xe66ex1d)[0][_0x1ba6[69]]!= undefined){sigHeight= $(_0x1ba6[70]+ _0xe66ex1d)[0][_0x1ba6[69]]}else {sigHeight= 280};if($(_0x1ba6[70]+ _0xe66ex1d)[0][_0x1ba6[71]]!= undefined){sigWidth= $(_0x1ba6[70]+ _0xe66ex1d)[0][_0x1ba6[71]]}else {sigWidth= 287};if(sigWidth> 287){scaleVal= 287/ sigWidth}else {scaleVal= 1};newHeight= sigHeight* scaleVal;removeEl= document[_0x1ba6[3]](_0x1ba6[64]);removeEl[_0x1ba6[73]][_0x1ba6[72]](removeEl);document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[21]]+= _0x1ba6[74]+ _0xe66ex1d+ _0x1ba6[115]+ _0xe66ex34+ _0x1ba6[116]+ toEmail[_0xe66ex2f]+ _0x1ba6[117]+ _0xe66ex33+ _0x1ba6[118];document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[21]]+= _0x1ba6[74]+ _0xe66ex1d+ _0x1ba6[119]+ scaleVal+ _0x1ba6[76]+ newHeight+ _0x1ba6[77]+ _0xe66ex1a+ _0x1ba6[68];sigTagHeight= sigTagHeight+ newHeight;document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[82]](_0x1ba6[1],_0x1ba6[80]+ sigTagHeight+ _0x1ba6[81]);document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20]}else {$(_0x1ba6[70]+ _0xe66ex1d+ _0x1ba6[122])[_0x1ba6[58]](_0x1ba6[120]+ _0xe66ex34+ _0x1ba6[116]+ toEmail[_0xe66ex2f]+ _0x1ba6[117]+ _0xe66ex33+ _0x1ba6[121])};_0xe66ex1a= _0x1ba6[39]}else {document[_0x1ba6[3]](_0x1ba6[2])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20];$(_0x1ba6[48])[_0x1ba6[58]](_0x1ba6[123]+ _0xe66ex34+ _0x1ba6[124]+ toEmail[_0xe66ex2f]+ _0x1ba6[117]+ _0xe66ex33+ _0x1ba6[125]+ toEmail[_0xe66ex2f]+ _0x1ba6[126]);_0xe66ex1c= _0x1ba6[45]}};if(_0xe66ex1c== _0x1ba6[45]){document[_0x1ba6[3]](_0x1ba6[49])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[56];$(_0x1ba6[48])[_0x1ba6[58]](_0x1ba6[57])}else {$(_0x1ba6[48])[_0x1ba6[47]](_0x1ba6[39]);document[_0x1ba6[3]](_0x1ba6[49])[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4]}}function _0xe66ex3b(_0xe66ex3c){var _0xe66ex3d={0:_0x1ba6[127],1:_0x1ba6[128],2:_0x1ba6[129],3:_0x1ba6[130],4:_0x1ba6[131],5:_0x1ba6[132],6:_0x1ba6[133],7:_0x1ba6[134],8:_0x1ba6[135],9:_0x1ba6[136],10:_0x1ba6[137],11:_0x1ba6[138],12:_0x1ba6[139],13:_0x1ba6[140],14:_0x1ba6[141],15:_0x1ba6[142],16:_0x1ba6[143],17:_0x1ba6[144],18:_0x1ba6[145],19:_0x1ba6[146],20:_0x1ba6[147],21:_0x1ba6[148],22:_0x1ba6[149],23:_0x1ba6[150],24:_0x1ba6[151],25:_0x1ba6[152],26:_0x1ba6[153]};return _0xe66ex3d[_0xe66ex3c]}$(document)[_0x1ba6[164]](_0x1ba6[154],_0x1ba6[155],function(_0xe66ex3e){var _0xe66ex3f=$(this)[_0x1ba6[157]](_0x1ba6[156]);var _0xe66ex40=$(_0x1ba6[70]+ _0xe66ex3f)[_0x1ba6[158]]();_0xe66ex10[_0x1ba6[59]][_0x1ba6[163]](function(_0xe66ex41){if(_0xe66ex41[_0x1ba6[86]]== Office[_0x1ba6[88]][_0x1ba6[87]]){writebody(_0xe66ex41[_0x1ba6[34]][_0x1ba6[89]])}else {_0xe66ex10[_0x1ba6[59]][_0x1ba6[159]](_0xe66ex40,{coercionType:_0x1ba6[158]},function(_0xe66ex2e){});Office[_0x1ba6[12]][_0x1ba6[11]][_0x1ba6[38]][_0x1ba6[162]][_0x1ba6[161]]({"\x58\x2D\x53\x69\x67\x73\x79\x6E\x63\x2D\x50\x72\x6F\x63\x65\x73\x73\x65\x64":_0x1ba6[160]})}})});$(document)[_0x1ba6[164]](_0x1ba6[154],_0x1ba6[165],function(_0xe66ex3e){this[_0x1ba6[168]][_0x1ba6[167]](_0x1ba6[166]);var _0xe66ex42=document[_0x1ba6[3]](_0x1ba6[6]);var _0xe66ex43=document[_0x1ba6[3]](_0x1ba6[169]);if(_0xe66ex42[_0x1ba6[1]][_0x1ba6[0]]=== _0x1ba6[4]){_0xe66ex43[_0x1ba6[21]]= _0x1ba6[170];_0xe66ex42[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[20];_0xe66ex43[_0x1ba6[168]][_0x1ba6[171]](_0x1ba6[166])}else {_0xe66ex43[_0x1ba6[21]]= _0x1ba6[172];_0xe66ex42[_0x1ba6[1]][_0x1ba6[0]]= _0x1ba6[4];_0xe66ex43[_0x1ba6[168]][_0x1ba6[173]](_0x1ba6[166])}})})()
+var sub, bodyContent, domainList, ruleList, newHeight, sigHeight, sigWidth, scaleVal, sigList, addinMode, multiplesig, outlookSup, outlookVer, LogMode, bNoSigforSub, addSigifNewRec;
+LogMode = false;
+multiplesig = false;
+var count = 0;
+var sigTagHeight = 0;
+var sigPreviewTxtadded = false;
+var sPrvFromAddress = '';
+var sPrvFromAddressAutoIns = '';
+var sNewFromAddress = '';
+var sNewFromAddressAutoIns = '';
+var toEmail = [];
+var bForcedEmpty = false;
+var sEmbedList = [];
+var sEmbedListMultiple = [];
+var divIDList = [];
+var orgFromAddr='';
+var selectedFromOpt = '0';
+var togglemode = '0';
+var togglemoderoam;
+var cloudmode = '0';
+var orgAddinMode = '';
+var toggleInsertSig = 0;
+var bExtDomainFound = false;
+var embedsupportInt = 'false';
+var embedsupportExt = 'false';
+var removeOutlookSig = 'false';
+var bShowAllSig = 'false';
+var dropimglinks = 'true';
+var bodyType = '';
+var hiddenstring = '\u200B\u200B\u200B';
+let _mailbox;
+let _settings;
+var bFirstInsert =-1;
+var composeType = 'newMail';
+var rangeDisplayVal = '75';
+var fromDomain ='';
+(function () {
+    var item;
+
+    Office.onReady(function() {
+		
+	});
+	Office.initialize = function () {
+		_mailbox = Office.context.mailbox;
+		_settings = Office.context.roamingSettings;
+		Office.context.mailbox.item.getComposeTypeAsync(function(asyncResult) {
+		  if (asyncResult.status === Office.AsyncResultStatus.Succeeded) {
+			composeType = asyncResult.value.composeType;
+		  } else {
+			console.error(asyncResult.error);
+		  }
+		});
+		try {
+			document.getElementById("signature").style.display = "none";
+			document.getElementById("info").style.display = "none";
+			document.getElementById("showdiv").style.display = "none";
+			document.getElementById("rangeSlider").style.display = "none";
+			GetSignatureDetailsFromServer();
+		} catch(err) {
+			console.log(err.message);
+		}
+	}
+	function OnMessageRecipientsChanged() {
+		try {
+			if(addinMode == 'preview'){
+				try {
+					/*setInterval(getAllFields, 1500);*/
+					getAllFields();
+					if(sigPreviewTxtadded == false) {
+						document.getElementById('intro').innerHTML += '<p class="info-msgs info-infoview">Add-in is set to \'<strong><span style="color: #ff0000">Preview Only</span></strong>\' mode.<br /> <a title="Enable / Disable preview mode" href="https://www.sigsync.com/kb/enable-preview-only-mode-for-sigsync-signatures.html" target="_blank" rel="noopener">Click here</a> to change the mode</p>';
+						sigPreviewTxtadded = true;
+					}
+				} catch(err) {
+				  
+				}
+			}
+		}catch(err) {
+		  
+		}
+	}
+	function GetOutlookVersion(){
+		try {						
+			outlookVer = Office.context.diagnostics.version;
+			var platformcheck = Office.context.diagnostics.platform;
+			var buildCheck = outlookVer.split('.');
+			var outLookSupport = true;
+			/*16.38.614.0 - 16.78.1008.0*/
+			if(platformcheck.toLowerCase() == 'mac'){
+				if(parseInt(buildCheck[0]) >= 16) {
+					if((parseInt(buildCheck[1]) < 59) || (parseInt(buildCheck[2]) < 22031300 && parseInt(buildCheck[1]) == 59)){
+						outLookSupport =  false;
+					}
+				} else {
+					outLookSupport =  false;
+				}
+			} else {
+				if(outlookVer != '0.0.0.0'){
+					if((parseInt(buildCheck[2]) < 13929 && parseInt(buildCheck[0]) == 16) || (parseInt(buildCheck[0]) < 16)){
+						outLookSupport = false;
+							
+					}
+				}
+			}
+			return outLookSupport;
+		} catch(err) {
+		  
+		}
+	}
+	
+	function ServerCall(fromEmail){
+		try{
+			fromDomain = fromEmail.split('@')[1];
+			var xhr = new XMLHttpRequest();
+			var indata = "fromEmail=" + fromEmail;
+			xhr.open("POST", "https://www.sigsync.com/clientaddin/Insertsig_deploy.php", true);
+			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); 			
+			xhr.send(indata);
+			xhr.onload = function() {	
+				try {
+					/*var finalStr = LZString.decompressFromBase64(this.responseText);
+					var json_obj = JSON.parse(finalStr);*/
+					var json_obj = JSON.parse(this.responseText);
+					if (json_obj.log && json_obj.log!=undefined){
+						LogMode = json_obj.log;
+					}	
+					if(LogMode == true){
+						var indata = "From xhrlog=" + fromEmail+ "&Mailbox Support="+ Office.context.diagnostics.version+ "&Platform="+ Office.context.diagnostics.platform +"&responseText InsertSig- "+this.responseText;
+						LogRecord(indata);
+					}
+					if (json_obj.error){
+						if(json_obj.error == "trial"){
+							document.getElementById("info").style.display = "block";
+							document.getElementById('info').innerHTML = '<p class="info-msgs info-warning">Sigsync signatures trial period has ended. To continue adding signatures to your emails, upgrade your Sigsync signatures license or contact your administrator.</p>';
+						}else if(json_obj.error == "nosig"){
+							document.getElementById("info").style.display = "block";
+							document.getElementById('info').innerHTML = '<p class="info-msgs info-warning">To continue adding signatures to your emails, upgrade your Sigsync signatures license or contact your administrator.</p>';
+						}else if(json_obj.error == "expired"){
+							document.getElementById("info").style.display = "block";
+							document.getElementById('info').innerHTML = '<p class="info-msgs info-error">Your Sigsync subscription has expired. To continue adding signatures to your emails, upgrade your Sigsync signatures license or contact your administrator.</p>';
+						}
+					} else {
+						if(json_obj.success) {
+							if(json_obj.dlist) {								
+								ruleList = json_obj.success;
+								domainList = json_obj.dlist;
+								addinMode = json_obj.addinmode;
+								orgAddinMode = json_obj.addinmode;
+								disableAddBtn = json_obj.disableaddbtn;
+								if(json_obj.multiplesig)
+									multiplesig = json_obj.multiplesig;
+								
+								if(json_obj.selectedFromOpt){
+									selectedFromOpt = json_obj.selectedFromOpt;
+								}
+								if(json_obj.bNoSigforSub){
+									bNoSigforSub = json_obj.bNoSigforSub;
+								}
+								if(json_obj.togglemode){
+									togglemode = json_obj.togglemode;
+								}
+								if(json_obj.cloudmode)
+									cloudmode = json_obj.cloudmode;
+								if (json_obj.embedsupportInt && json_obj.embedsupportInt == 'true'){
+									embedsupportInt = 'true';
+								}
+								if (json_obj.embedsupportExt && json_obj.embedsupportExt == 'true'){
+									 embedsupportExt = 'true';
+								}
+								if (json_obj.removeOutlookSig && json_obj.removeOutlookSig == 'true'){
+									 removeOutlookSig = 'true';
+								}
+								if (json_obj.ShowAllSig && json_obj.ShowAllSig == 'true'){
+									 bShowAllSig = 'true';
+								}
+								
+								if (json_obj.dropimglinks && json_obj.dropimglinks == 'false'){
+									 dropimglinks = 'false';
+								}
+								if(removeOutlookSig == 'true'){
+									if (bodyType === Office.MailboxEnums.BodyType.Text) {
+										item.body.setSignatureAsync('',{ coercionType: Office.CoercionType.Text },function(asyncResult) {});
+									} else {
+										item.body.setSignatureAsync('',{ coercionType: "html" },function(asyncResult) {});
+									}
+								}
+								if(addinMode !== 'preview' && togglemode == '1'){
+									_settings = Office.context.roamingSettings;
+									togglemoderoam = _settings.get("toggled");
+									if(_settings.get("toggled") == null || _settings.get("toggled") == undefined) {
+										_settings.set("toggled", 'outlook');
+										Office.context.roamingSettings.saveAsync(function(result) {
+											if (result.status !== Office.AsyncResultStatus.Succeeded) {
+												
+											} 
+										});
+									}
+									var toggleText = '<p class="modetxt"><input type="radio" name="toggleoption" title="Attach signature while composing email" id="outlook" value="outlook"';
+									if(togglemoderoam != 'cloud')
+										toggleText += 'checked="checked">';
+									else 
+										toggleText += '>';
+									toggleText += '<label for="outlook" title="Attach signature while composing email">Client Mode</label> <input title="Attach signature on the server" type="radio" name="toggleoption" id="server" value="server"';
+									if(togglemoderoam == 'cloud')
+										toggleText += 'checked="checked">';
+									else 
+										toggleText += '>';
+									toggleText += '<label for="server" title="Attach signature on the server">Cloud Mode</label>';
+									document.getElementById("togglemode").innerHTML = toggleText;
+									if(togglemoderoam  == 'cloud'){
+										EnableCloudMode();
+									}								
+								} else if(togglemode == '0'){
+									_settings.set("toggled", 'outlook');
+									Office.context.roamingSettings.saveAsync(function(result) {
+										if (result.status !== Office.AsyncResultStatus.Succeeded) {
+											
+										}
+									});
+								}
+								if (ruleList == "") {
+									 bForcedEmpty = false;
+								}
+							}
+						}
+					}
+				} catch(err) {
+				}				
+			}
+		} catch(err) {
+		}
+	}
+	
+	let timerServer = setInterval(GetSignatureDetailsFromServer, 1000);
+	let timerSetsignature = setInterval(waitforItem, 15000);
+	
+	function GetSignatureDetailsFromServer() {
+		try {
+			if (Office.context) {		
+				if (Office.context.mailbox) {
+					item = Office.context.mailbox.item;
+					
+					sFromEmailAddress = item.from;
+					
+					if (sFromEmailAddress) {
+						sFromEmailAddress.getAsync(function (asyncResult) {
+							if (asyncResult.status == Office.AsyncResultStatus.Failed) {
+								write(asyncResult.error.message);
+							}
+							else {
+								sNewFromAddress = asyncResult.value.emailAddress;
+								orgFromAddr = Office.context.mailbox.userProfile.emailAddress;						
+								sNewFromAddress = assignFromAddress(selectedFromOpt, sNewFromAddress, orgFromAddr);
+								
+								
+								sNewFromAddressAutoIns = sNewFromAddress;
+								
+								if(sPrvFromAddress != sNewFromAddress){
+									sPrvFromAddress = sNewFromAddress;
+					
+									var outLookSupport = GetOutlookVersion();
+									if(outLookSupport === false) {
+										document.getElementById("info").style.display = "block";
+										document.getElementById('info').innerHTML = '<p class="info-msgs info-error">Your Outlook version ('+Office.context.diagnostics.version+') is not compatible with the Sigsync Add-in. If the Signature display is not appearing, then either upgrade your Outlook or contact <a title="Contact Sigsync support" href="https://www.sigsync.com/support.html" target="_blank" rel="noopener">Sigsync support</a></p>';	
+									} else {
+										ruleList = "";
+										domainList = "";
+										bForcedEmpty = true;
+										ServerCall(sPrvFromAddress);
+										timerSetsignature = setInterval(waitforItem, 1000);
+									}
+								}
+								
+							}
+						});
+					}
+				}
+			}
+		} catch(err) {
+		}
+    }
+	function assignFromAddress(selectedFromOpt, sFromEmailAddress, orgFromAddr) {
+		if(selectedFromOpt != '1'){
+			if(orgFromAddr != undefined && orgFromAddr != null)
+				return orgFromAddr;
+		}
+		return sFromEmailAddress;
+	}
+	
+	function waitforItem() {
+		try {
+			if (Office.context) {		
+				if (Office.context.mailbox) {
+					if (Office.context.mailbox.item) {
+						clearInterval(timerSetsignature);
+						setSignature(domainList, ruleList);
+					}
+				}
+			}
+		} catch(err) {
+		  if(LogMode == true){
+				var indata = "err=" + err.message;
+				LogRecord(indata);
+			}
+		}	
+	}
+	
+    function setSignature(domainList, ruleList, overridepreview) {		
+		overridepreview = overridepreview || false;
+        if ((ruleList == "") && bForcedEmpty == false){
+            try {
+				document.getElementById('info').innerHTML += '<p class="info-msgs info-information">Your account is not configured with Sigsync Email Signatures for Office 365. You have to create account with Sigsync and configure your signature.</p><p class="info-msgs info-information">&gt;&gt; <a title="How to add Email signatures" href="https://www.sigsync.com/kb/how-to-add-email-signature.html" target="_blank" rel="noopener">Click here</a> for steps to add signature to your emails.</p><p class="info-msgs info-information">&gt;&gt; <a title="Sigsync signature add-in" href="https://www.sigsync.com/kb/email-signatures-add-in-for-outlook.html" target="_blank" rel="noopener">Click here</a> to know more about Sigsync Outlook Add-in.</p>';
+			} catch(err) {
+			}
+			return;
+        }		
+		if (ruleList == "") {
+			return;
+		}
+		_settings = Office.context.roamingSettings;
+		if(_settings.get("rangeDisplayVal") !== null && _settings.get("rangeDisplayVal") !== undefined) {
+			rangeDisplayVal = _settings.get("rangeDisplayVal");
+		}
+		document.getElementById("rangeSlider").value = rangeDisplayVal;
+		if(addinMode == 'preview' && overridepreview == false){
+			try {
+				/*setInterval(getAllFields, 1500);*/
+				getAllFields();
+				if(sigPreviewTxtadded == false) {
+					document.getElementById('intro').innerHTML += '<p class="info-msgs info-infoview">Add-in is set to \'<strong><span style="color: #ff0000">Preview Only</span></strong>\' mode.<br /> <a title="Enable / Disable preview mode" href="https://www.sigsync.com/kb/enable-preview-only-mode-for-sigsync-signatures.html" target="_blank" rel="noopener">Click here</a> to change the mode</p>';
+					sigPreviewTxtadded = true;
+				}
+			} catch(err) {
+			}
+		} else{
+			try {
+				if(sigPreviewTxtadded == false) {
+					document.getElementById('intro').innerHTML += '<p class="info-msgs info-infoview"><a title="Enable / Disable preview mode" href="https://www.sigsync.com/kb/enable-preview-only-mode-for-sigsync-signatures.html" target="_blank" rel="noopener">Click here</a> to change the Add-in mode to \'<strong><span style="color: #ff0000">Preview Only</span></strong>\'</p>';
+					sigPreviewTxtadded = true;
+				}
+			
+				var sigContent = "";
+				var templateName = "";
+				var emptyCheck = "true";
+				var divName = "";
+				var divName2 = "";
+				var subSigContent = "";
+				var subTemplateName = "";
+				var mutliplesigcontent ="";
+				var multipleDiv = "mergedsig";
+				var datakey="";
+				var templatenameList = [];
+				divIDList = [];
+				document.getElementById('signature').innerHTML = '<div id="emptylist" style="background:#f7f7f7;padding:10px"></div>';
+				document.getElementById('emptylist').innerHTML ="";
+				document.getElementById("emptylist").style.display = "none";
+				document.getElementById("signature").style.display = "none";
+				var insertSig = 0;
+				
+				var sigIndexToInsert = ruleList.length-1;
+				
+				if(multiplesig != 1) {
+					if(bShowAllSig == 'true') {
+						for(t=0;t<ruleList.length;t++){
+							value=ruleList[t];
+							if(value.ruleapply == 2) {
+								sigIndexToInsert =  t;
+								break;
+							}
+						}
+					}
+				}
+				ruleList.forEach(function(value, key) {
+					if(value.template!="" && value.templatename!= ""){
+						sigContent = value.template;
+						templateName = value.templatename;
+						templateName = templateName.replaceAll(" ","_");
+						divName = 'template'+templateName;
+						datakey = key;
+					}
+					if(value.subtemplate!="" && value.subtemplatename!= ""){
+						subSigContent = value.subtemplate;
+						subTemplateName = value.subtemplatename;
+						subTemplateName = subTemplateName.replaceAll(" ","_");
+						divName2 = 'subtemplate'+subTemplateName;
+						datakey = key;
+					}		
+					if(multiplesig == 1) {
+						if(composeType == 'newMail') {
+							if(value.template!="" && value.templatename!= ""){
+								mutliplesigcontent += sigContent;
+								if(value.EmbedDataList.length>0){
+									sEmbedListMultiple[key] = value.EmbedDataList;	
+								}
+							}
+						} else {
+							if(value.applyon == 'subemail') {
+								if(value.subtemplate!="" && value.subtemplatename!= ""){
+									mutliplesigcontent += subSigContent;
+									if(value.SubEmbedDataList.length>0){
+										sEmbedListMultiple[key] = value.SubEmbedDataList;	
+									}
+								}
+							} else {
+								if(value.template!="" && value.templatename!= ""){
+									mutliplesigcontent += sigContent;
+									if(value.EmbedDataList.length>0){
+										sEmbedListMultiple[key] = value.EmbedDataList;	
+									}
+								}
+							}
+						}
+						if(mutliplesigcontent!='')
+							emptyCheck = "false";
+					}
+					if(multiplesig != 1) {
+							if(composeType !== 'newMail') {
+							if(value.applyon == 'subemail') {
+								if (subSigContent != "") {
+							
+									if(insertSig == 0 && key == sigIndexToInsert){
+										insertSig = 1;
+										writeSignature(subSigContent, divName2, datakey, 2, true);
+									} else {
+										if (!templatenameList.includes(subTemplateName)) {
+											templatenameList.push(subTemplateName);
+											writeSignature(subSigContent, divName2, datakey, 2, false);
+										}
+										
+									}
+									
+									subSigContent = "";
+									emptyCheck = "false";
+									
+								} else {
+									document.getElementById("signature").style.display = "block";
+								}
+								if (sigContent != "") {
+								
+									/*if(insertSig == 0 && key == sigIndexToInsert){
+										insertSig = 1;
+										writeSignature(sigContent, divName, datakey, 1, true);
+									} else {*/
+										if (!templatenameList.includes(templateName)) {
+											templatenameList.push(templateName);
+											writeSignature(sigContent, divName, datakey, 1, false);
+										}
+										
+									/*}*/
+									
+									sigContent = "";
+									emptyCheck = "false";
+								} else {
+									document.getElementById("signature").style.display = "block";
+								}
+							} else {
+								if (sigContent != "") {
+								
+									if(insertSig == 0 && key == sigIndexToInsert){
+										insertSig = 1;
+										writeSignature(sigContent, divName, datakey, 1, true);
+									} else {
+										if (!templatenameList.includes(templateName)) {
+											templatenameList.push(templateName);
+											writeSignature(sigContent, divName, datakey, 1, false);
+										}
+									}
+									
+									sigContent = "";
+									emptyCheck = "false";
+								} else {
+									document.getElementById("signature").style.display = "block";
+								}
+							}
+						
+						} else {
+							if (sigContent != "") {
+								
+								if(insertSig == 0 && key == sigIndexToInsert){
+									insertSig = 1;
+									writeSignature(sigContent, divName, datakey, 1, true);
+								} else {
+									if (!templatenameList.includes(templateName)) {
+										templatenameList.push(templateName);
+										writeSignature(sigContent, divName, datakey, 1, false);
+									}
+								}
+								
+								sigContent = "";
+								emptyCheck = "false";
+							} else {
+								document.getElementById("signature").style.display = "block";
+							}
+						
+							if (subSigContent != "") {
+								
+								if(insertSig == 0 && key == sigIndexToInsert){
+									insertSig = 1;
+									writeSignature(subSigContent, divName2, datakey, 2, true);
+								} else {
+									
+									if (!templatenameList.includes(subTemplateName)) {
+										templatenameList.push(subTemplateName);
+										writeSignature(subSigContent, divName2, datakey, 2, false);
+									}
+								}
+								
+								subSigContent = "";
+								emptyCheck = "false";
+								
+							} else {
+								document.getElementById("signature").style.display = "block";
+							}
+						}
+					} 
+					sigContent = "";
+					subSigContent = "";
+				});
+				
+				if(multiplesig == 1) {
+					if(mutliplesigcontent!='') {
+						if(insertSig == 0){
+							insertSig = 1;
+							writeSignature(mutliplesigcontent, multipleDiv, '', 1, true);
+						} else {
+							writeSignature(mutliplesigcontent, multipleDiv, '', 1, false);
+						}
+						
+						mutliplesigcontent = '';
+					}
+				}
+				
+				if (emptyCheck == "true"){
+					
+					var emptylist = document.getElementById('emptylist');
+					emptylist.style.display = "inline-block";
+					emptylist.innerHTML += '<p class="info-msgs info-warning">Signature(s) preview is missing.</p><p class="info-msgs info-warning">1. Ensure that you have created your signature in <a title="Sigsync Email Signatures for Office 365" href="https://www.sigsync.com/kb/how-to-add-email-signature.html" target="_blank" rel="noopener">Sigsync Email Signatures for Office 365</a>.<br />2. Ensure that you have not excluded this sender email address in your <a title="Steps to set Signature Rules" href="https://www.sigsync.com/kb/how-to-set-rules.html" target="_blank" rel="noopener">signature rule</a>.</p>';
+				}else{
+					document.getElementById("rangeSlider").style.display = "block";
+					document.getElementById('emptylist').innerHTML="";
+					document.getElementById("emptylist").style.display = "none";
+				}
+				
+			} catch(err) {
+			  if(LogMode == true){
+					var indata = "setSignatureErr=" + err.message;
+					LogRecord(indata);
+				}
+			}
+		}
+		var rangeSlider = document.getElementById("rangeSlider");
+		var event = new Event('input', {
+			bubbles: true,
+			cancelable: true,
+		});
+		rangeSlider.dispatchEvent(event);
+    }	
+	
+	function writeSignature(sigContentTmp, divNameTmp, rulekey, tempType=1, bTriggerclick) {
+		try {
+			bTriggerclick = bTriggerclick || false;
+			sigTagHeight = 0;
+			if (!divIDList.includes(divNameTmp)) {
+				divIDList.push(divNameTmp);
+			
+			
+				var body = document.getElementsByTagName('body')[0],
+				newdiv = document.createElement('div');
+				newdiv.id = 'newid';
+				body.appendChild(newdiv);
+				
+				document.getElementById('newid').innerHTML = "<div id="+divNameTmp+" class='table-container'>"+sigContentTmp+"</div>";
+						
+				var element = document.getElementById(divNameTmp);
+				var sigHeight;
+				if (element.scrollHeight !== undefined) {
+					sigHeight = element.scrollHeight;
+				} else {
+					sigHeight = 280;
+				}
+				var sigWidth;
+				if (element.scrollWidth !== undefined) {
+					sigWidth = element.scrollWidth;
+				} else {
+					sigWidth = 287;
+				}
+			
+				if(sigWidth <= 0)
+					sigWidth = 287;	
+				
+				if(sigWidth > 287)
+					scaleVal = 287 / sigWidth;
+				else
+					scaleVal = 1;
+			
+				newHeight = sigHeight*scaleVal;
+				removeEl = document.getElementById("newid");
+				removeEl.parentNode.removeChild(removeEl);			
+				
+				var sightml = '<div class="signatureholder"><div id="'+divNameTmp+'"  class="table-container" style="clear:both;"><div class="ms-Grid-row"><div class="ms-Grid-col ms-u-sm12">'+sigContentTmp.replace(/(<br\s*\/?>\s*)+$/, '')+'</div></div></div>';
+				if(addinMode != 'preview') {
+					if(disableAddBtn == 'true'){
+						sightml += '<button class="disabledinsertsig">Add This Signature</button><span class="disabledtxt" style="display:none">You have disabled this option. <a href="https://www.sigsync.com/email-signature/faq.html#disable-add-button" target="_blank">Click here</a> to learn how to enable it.</span>';
+						/*<hr style="color:#ddd; width:100%;margin-bottom:5px" />*/
+					} else {
+						sightml += '<button name="insertbtn" class="insertsig" data-id="'+divNameTmp+'" id="" data-keyval="'+rulekey+'" data-templatetype="'+tempType+'" title="Add this signature template">Add This Signature</button>';
+						/*<hr style="color:#ddd; width:100%;margin-bottom:5px" />*/
+					}
+				}
+				sightml += '</div>'; /*<br>*/
+				sigTagHeight = sigTagHeight + newHeight;
+				document.getElementById('signature').innerHTML += sightml;
+				document.getElementById("signature").style.display = "block";	
+			}
+			if(bTriggerclick == true && (toggleInsertSig == 1 || (addinMode == 'all' && sPrvFromAddressAutoIns != sNewFromAddressAutoIns))){
+				if(toggleInsertSig == 1)
+					toggleInsertSig = 0;
+				sPrvFromAddressAutoIns = sNewFromAddressAutoIns;
+				if(composeType == 'newMail' || (composeType !== 'newMail' && bNoSigforSub !== 'true')) {
+					var elements = document.querySelectorAll('.insertsig[data-id="' + divNameTmp + '"]');
+					if (elements.length > 0) {
+						elements[0].click();
+					}
+				} else {
+					Office.context.mailbox.item.internetHeaders.setAsync(
+						{ "X-Sigsync-Processed": "YesClient" }					
+					);
+				}
+			}
+			
+			
+		} catch(err) {
+		  if(LogMode == true){
+			var indata = "writeSignature=" + err.message;
+			LogRecord(indata);
+			}
+		}
+	}
+	
+    function write(message) {        
+		console.log(message);
+    }	
+	function EnableCloudMode(){
+		if (bodyType === Office.MailboxEnums.BodyType.Text) {
+			item.body.setSignatureAsync('',{ coercionType: Office.CoercionType.Text },function(asyncResult) {});
+		} else {
+			item.body.setSignatureAsync('',{ coercionType: "html" },function(asyncResult) {});
+		}
+		addinMode = 'preview';
+		Office.context.mailbox.item.internetHeaders.removeAsync(
+		  ["X-Sigsync-Processed", 'x-sigsync-processed'],
+		  function (asyncResult) {
+			if (asyncResult.status === Office.AsyncResultStatus.Succeeded) {
+			  
+			} 
+		  }
+		);
+	}		
+	function getAllFields() {
+        try {
+			if(Office.context.mailbox != undefined) {
+				item = Office.context.mailbox.item;
+				var toRecipients, subEmail, bodyEmail;
+				toRecipients = item.to;
+				subEmail = item.subject;
+				bodyEmail = item.body;
+				
+				if (toRecipients)
+					toRecipients.getAsync(function (asyncResult) {
+						if (asyncResult.status == Office.AsyncResultStatus.Failed) {
+							/*write(asyncResult.error.message);*/
+						}
+						else {
+							toEmail.length = 0;
+							for (var i = 0; i < asyncResult.value.length; i++) {
+								count = 1;
+								toEmail[i] = asyncResult.value[i].emailAddress;
+							}
+						}
+					});
+					
+				/*if (count == 0) {
+					document.getElementById('info').innerHTML = '<p class="info-msgs info-information">Enter an \"Email address\" in <b>\"To\"</b> field to preview the signature.</p>';
+					document.getElementById("info").style.display = "block";
+					document.getElementById("signature").style.display = "none";
+				} else {
+					document.getElementById('info').innerHTML = "";
+					document.getElementById("info").style.display = "none";
+					count = 0;
+				}*/
+	
+				if (subEmail)
+					subEmail.getAsync(function (asyncResult) {
+						if (asyncResult.status == Office.AsyncResultStatus.Failed) {
+							write(asyncResult.error.message);
+						} else {
+							sub = "";
+							sub = asyncResult.value;
+						}
+					});
+			
+				if (bodyEmail)
+					bodyEmail.getAsync('text',function (asyncResult) {
+						if (asyncResult.status == Office.AsyncResultStatus.Failed) {
+							write(asyncResult.error.message);
+						} else {
+							bodyContent = "";
+							bodyContent = asyncResult.value;
+						}
+					});
+	
+				setPreview(toEmail, sub, bodyContent, domainList, ruleList, multiplesig);
+			}
+		} catch(err) {
+		   if(LogMode == true){
+			var indata = "getAllFields=" + err.message;
+			LogRecord(indata);
+			}
+		}
+    }
+	
+	function setPreview(toEmail, sub, bodyContent, domainList, ruleList, multiplesig) {
+        try {
+			if (ruleList == ""){
+				document.getElementById('info').innerHTML += '<p class="info-msgs info-information">Your account is not configured with Sigsync Email Signatures for Office 365. You have to create account with Sigsync and configure your signature.</p><p class="info-msgs info-information">&gt;&gt; <a title="How to add Email signatures" href="https://www.sigsync.com/kb/how-to-add-email-signature.html" target="_blank" rel="noopener">Click here</a> for steps to add signature to your emails.</p><p class="info-msgs info-information">&gt;&gt; <a title="Sigsync signature add-in" href="https://www.sigsync.com/kb/email-signatures-add-in-for-outlook.html" target="_blank" rel="noopener">Click here</a> to know more about Sigsync Outlook Add-in.</p>';
+				return;
+			}
+			document.getElementById("rangeSlider").style.display = "block";
+			var toDomain = '';
+			var setSig = 0;
+			var sigContent = "";
+			var firstChar = "";
+			var colorCode = "eee";
+			var emptyCheck = "false";		
+			
+			var AddKeywordsList;
+			var ExcludeKeywordsList;
+			var divName2 = "";
+			var subSigContent = "";
+			var subTemplateName = "";
+			sigTagHeight = 0;
+			sigList = "";
+			
+			document.getElementById('signature').innerHTML = '<div id="emptylist" style="background:#f7f7f7;padding:10px"></div>';
+			
+			document.getElementById('emptylist').innerHTML ="";
+			document.getElementById("emptylist").style.display = "none";
+			document.getElementById("signature").style.display = "none";
+			if(toEmail.length <=0) {
+				setSignature(domainList, ruleList, true);
+			} else {
+				for (var i = 0; i < toEmail.length; i++) {
+					toEmail[i] = toEmail[i].toLowerCase();
+					toDomain = toEmail[i].split('@')[1];
+				
+					firstChar = toEmail[i].charAt(0);
+					colorCode = firstChar.charCodeAt(0)%26;
+					colorCode = getColorCode(colorCode);
+					var divName = "";
+					var templateName = "";	
+					
+					ruleList.forEach(function(value, key) {
+						setSig = 0;
+						if (value.orgtype != "all") {
+							if (value.orgtype == "internal" && ((toDomain.toLowerCase() == fromDomain.toLowerCase()) || (domainList.indexOf(toDomain) > -1 && domainList.indexOf(fromDomain) > -1)))
+								setSig = 1;
+							else if (value.orgtype == "external" && (toDomain.toLowerCase() !== fromDomain.toLowerCase()) && (domainList.length <= 0 || domainList.indexOf(toDomain) == -1 || domainList.indexOf(fromDomain) == -1))
+								setSig = 1;
+							else {
+							
+								if(value.addrecipients!=undefined && value.addrecipients!='') {
+									var addlist = JSON.parse(value.addrecipients);
+									for (var reckey in addlist) {
+										if (addlist.hasOwnProperty(reckey)) {
+											var recval = addlist[reckey];
+											var addRecipients = JSON.parse(recval);
+											if (addRecipients.rectype === 'listofemails') {
+												if (addRecipients.recdata && addRecipients.recdata.length > 0) {
+													for (var i = 0; i < addRecipients.recdata.length; i++) {
+														var reckeywordarr = addRecipients.recdata[i];
+
+														if (reckeywordarr.recipientemail && reckeywordarr.recipientemail.length > 3) {
+															if ((toEmail[i] === reckeywordarr.recipientemail.toLowerCase()) || (toDomain === reckeywordarr.recipientemail.toLowerCase())) {
+																setSig = 1;
+																break;
+															} else if (fnmatch(reckeywordarr.recipientemail, toEmail[i]) === true) {
+																setSig = 1;
+																break;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						} else
+							setSig = 1;
+						if(setSig == 1) {
+							if(value.donotaddruletype) {
+							   if (value.donotaddruletype == "internal" && ((toDomain.toLowerCase() == fromDomain.toLowerCase()) || domainList.indexOf(toDomain) > -1)) {
+									setSig = 0;
+							   }else if (value.donotaddruletype == "external" && (toDomain.toLowerCase() !== fromDomain.toLowerCase()) && (domainList.length <= 0 || domainList.indexOf(toDomain) == -1)) {
+								   setSig = 0;
+							   } 
+							}	
+							if(setSig == 1) {
+								if(value.excluderecipients!=undefined && value.excluderecipients!='') {
+									value.excluderecipients.forEach(function(exrecval, exreckey) {
+										var excludereclist = JSON.parse(exrecval);
+										if (excludereclist.rectype === 'listofemails') {
+											if (excludereclist.recdata && excludereclist.recdata.length > 0) {
+												excludereclist.recdata.forEach(function(exreckeywordarr, exrecdatakey) {
+													if (exreckeywordarr.recipientemail && exreckeywordarr.recipientemail.length > 3) {
+														if ((toEmail[i] === exreckeywordarr.recipientemail.toLowerCase()) || (toDomain === exreckeywordarr.recipientemail.toLowerCase())) {
+															setSig = 0;
+															return;
+														} else if (fnmatch(reckeywordarr.recipientemail, toEmail[i]) === true) {
+															setSig = 0;
+															return;
+														}
+													}
+												});
+											}
+										}
+									});
+
+								}
+							}
+						}
+				   
+						if(setSig == 1) {
+							if(value.addkeywordlist!=undefined && value.addkeywordlist!='') {
+								var AddKeywordsList = JSON.parse(value.addkeywordlist);
+								AddKeywordsList.forEach(function(Kvalue, Kkey) {
+									if (Kvalue.searchtype === "sb" && bodyContent !== undefined && sub !== undefined) {
+										if (Kvalue.phrase !== "" && (sub.indexOf(Kvalue.phrase) === -1 || bodyContent.indexOf(Kvalue.phrase) === -1)) {
+											setSig = 0;
+											return;
+										}
+									} else if (Kvalue.searchtype === "s" && sub !== undefined) {
+										if (Kvalue.phrase !== "" && sub.indexOf(Kvalue.phrase) === -1) {
+											setSig = 0;
+											return;
+										}
+									} else if (Kvalue.searchtype === "b" && bodyContent !== undefined) {
+										if (Kvalue.phrase !== "" && bodyContent.indexOf(Kvalue.phrase) === -1) {
+											setSig = 0;
+											return;
+										}
+									}
+								});
+							}
+						}
+						if(setSig == 1) {
+							if(value.excludekeywordlist!=undefined && value.excludekeywordlist!='') {
+								var ExcludeKeywordsList = JSON.parse(value.excludekeywordlist);
+								ExcludeKeywordsList.forEach(function(Evalue, Ekey) {
+									if (Evalue.searchtype === "sb" && bodyContent !== undefined && sub !== undefined) {
+										if (Evalue.phrase !== "" && (sub.indexOf(Evalue.phrase) !== -1 && bodyContent.indexOf(Evalue.phrase) !== -1)) {
+											setSig = 0;
+											return;
+										}
+									} else if (Evalue.searchtype === "s" && sub !== undefined) {
+										if (Evalue.phrase !== "" && sub.indexOf(Evalue.phrase) !== -1) {
+											setSig = 0;
+											return;
+										}
+									} else if (Evalue.searchtype === "b" && bodyContent !== undefined) {
+										if (Evalue.phrase !== "" && bodyContent.indexOf(Evalue.phrase) !== -1) {
+											setSig = 0;
+											return;
+										}
+									}
+								});
+
+							}
+						}
+				 
+						if (setSig == 1){					
+							
+							if(multiplesig != 1) {
+								if(value.template!="" && value.templatename!= ""){
+									sigContent = value.template;
+									templateName = value.templatename;
+									divName = 'template'+key;
+								}
+							} else {
+								if(composeType == 'newMail') {
+									if(value.template!="" && value.templatename!= "") {
+										
+										sigContent += value.template;
+										divName += 'mtemplate'+key;
+										templateName += value.templatename;
+									}
+								} else {
+									if(value.applyon == 'subemail') {
+										if(value.subtemplate!="" && value.subtemplatename!= ""){
+											sigContent += value.subtemplate;
+											divName += 'mtemplate'+key;
+											templateName += value.subtemplatename;
+										}
+									} else {
+										if(value.template!="" && value.templatename!= "") {
+											sigContent += value.template;
+											divName += 'mtemplate'+key;
+											templateName += value.templatename;
+										}
+									}
+								}
+							}
+							if(value.ruleapply==2) {
+								return false;
+							}
+						} else {
+							setSig == 0;
+							if(value.rulenotapply==2) {
+								return false;
+							}
+						}
+					});
+				
+					if (sigContent != "") {
+						
+						if(sigList.indexOf(templateName+';') == -1){
+							sigList = sigList+templateName+';';
+							var body = document.getElementsByTagName('body')[0],
+							newdiv = document.createElement('div');
+							newdiv.id = 'newid';
+							body.appendChild(newdiv);
+							document.getElementById('newid').innerHTML = "<div id="+divName+" class=table-container>"+sigContent+"</div>";
+						
+							var element = document.getElementById(divName);
+							var sigHeight;
+							if (element.scrollHeight !== undefined) {
+								sigHeight = element.scrollHeight;
+							} else {
+								sigHeight = 280;
+							}
+							var sigWidth;
+							if (element.scrollWidth !== undefined) {
+								sigWidth = element.scrollWidth;
+							} else {
+								sigWidth = 287;
+							}
+
+							if(sigWidth > 287)
+								scaleVal = 287 / sigWidth;
+							else
+								scaleVal = 1;
+							newHeight = sigHeight*scaleVal;
+							removeEl = document.getElementById("newid");
+							removeEl.parentNode.removeChild(removeEl);
+							document.getElementById('signature').innerHTML += '<div id="'+divName+'list"><p class="icon-holder"><span class="first-icon" style="background:#'+colorCode+'" title="'+toEmail[i]+'">'+firstChar+'</span></p></div>';
+							document.getElementById('signature').innerHTML += '<div id="'+divName+'" style="transform:scale('+scaleVal+');transform-origin:left top;height: '+newHeight+'px;">'+sigContent.replace(/(<br\s*\/?>\s*)+$/, '')+'</div>';
+							sigTagHeight = sigTagHeight + newHeight;
+							document.getElementById("signature").setAttribute('style','height:'+sigTagHeight+'px;');
+							document.getElementById("signature").style.display = "block";
+						}
+						else {
+							var emptylist = document.getElementById('emptylist');
+							var htmlString = '<p class="icon-holder"><span class="first-icon" style="background:#'+colorCode+'" title="'+toEmail[i]+'">'+firstChar+'</span></p>';
+							emptylist.innerHTML += htmlString;
+						}
+
+						sigContent = "";
+					} else {
+						document.getElementById("signature").style.display = "block";
+						var emptylist = document.getElementById('emptylist');
+						var htmlString = '<p class="icon-holder"><span class="empty-icon" style="background:#'+colorCode+';display:inline;padding:2px 8px 5px" title="'+toEmail[i]+'">'+firstChar+'</span>'+toEmail[i]+'</p>';
+						emptylist.innerHTML += htmlString;
+						emptyCheck = "true";
+					}
+				}
+			}
+			if (emptyCheck == "true"){
+				document.getElementById("emptylist").style.display = "inline-block";
+				var emptylist = document.getElementById('emptylist');
+				var htmlString = '<p class="info-msgs info-warning">Signature(s) preview is missing.</p><p class="info-msgs info-warning">1. Ensure that you have created your signature in <a title="Sigsync Email Signatures for Office 365" href="https://www.sigsync.com/kb/how-to-add-email-signature.html" target="_blank" rel="noopener">Sigsync Email Signatures for Office 365</a>.<br />2. Ensure that you have not excluded this sender email address in your <a title="Steps to set Signature Rules" href="https://www.sigsync.com/kb/how-to-set-rules.html" target="_blank" rel="noopener">signature rule</a>.</p>';
+				emptylist.innerHTML += htmlString;
+			}
+			else{
+				document.getElementById("emptylist").innerHTML="";
+				document.getElementById("emptylist").style.display = "none";
+			}	
+		} catch(err) {
+		   if(LogMode == true){
+			var indata = "PreviewArr=" + err.message;
+			LogRecord(indata);
+			}
+		}
+    }
+	
+	function getColorCode(index) {
+		var COLORCODE = {0:'7551d3',1:'7550d1',2:'2c85ec',3:'0bb3b2',4:'2080bd',5:'da5c38',6:'8a4183',7:'3c8deb',8:'8C8775',9:'4ea9ce', 10:'267494', 11:'b4a11e',12:'bc4726',13:'8b4884',14:'5c3daa',15:'7b4676',16:'6d8686',17:'ad6f3e',18:'a38641',19:'963171',20:'4096b9',21:'809827', 22:'b30414', 23:'83a539',24:'a73644',25:'297fa7',26:'b19935'};
+		return COLORCODE[index];
+	}
+	document.addEventListener("click", function(event) {
+		if (event.target && event.target.matches('input[name="toggleoption"]')) {
+			document.getElementById('errorid').style.display = "none";
+			if (event.target.value === 'outlook') {
+				addinMode = orgAddinMode;
+				document.getElementById("info").style.display="none";
+				toggleInsertSig = 1;
+				_settings = Office.context.roamingSettings;
+				_settings.set("toggled", 'outlook');
+				Office.context.roamingSettings.saveAsync(function(result) {
+				  if (result.status !== Office.AsyncResultStatus.Succeeded) {
+				  }
+				});
+				document.getElementById("modelbl").innerHTML = "'Client Mode'";
+				document.getElementById('togglealert').style.display = "block";
+				setTimeout(function() {hideErrorMessage('togglealert');}, 10000);
+			} else {
+				if (event.target.value === 'server') {
+					if(cloudmode == '1'){
+						_settings = Office.context.roamingSettings;
+						 _settings.set("toggled", 'cloud');
+						Office.context.roamingSettings.saveAsync(function(result) {
+						  if (result.status !== Office.AsyncResultStatus.Succeeded) {
+							
+						  }
+						});
+						document.getElementById("modelbl").innerHTML = "'Cloud Mode'";
+						document.getElementById('togglealert').style.display = "block";
+						EnableCloudMode();
+						setTimeout(function() {hideErrorMessage('togglealert');}, 10000);
+					} else {
+						document.getElementById('errorid').style.display = "block";
+						document.getElementById('togglealert').style.display = "none";
+						document.getElementById('server').checked = false;
+						document.getElementById('outlook').checked = true;
+						setTimeout(function() {hideErrorMessage('errorid');}, 10000);
+					}
+				}
+			}
+			setSignature(domainList, ruleList);
+		}
+	});
+	function hideErrorMessage(div_id) {
+		var errorMessageDiv = document.getElementById(div_id);
+		errorMessageDiv.style.display = 'none';
+	}
+	function convertToPlain(html, dropimglinks, callback){
+		try {
+			var indata = "htmltext="+ encodeURIComponent(html) + "&dropimglinks=" + dropimglinks;
+			var xhrlog1 = new XMLHttpRequest();
+			xhrlog1.open("POST", "https://www.sigsync.com/clientaddin/converthtmlforAddin.php", true);
+			xhrlog1.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); 			
+			xhrlog1.send(indata);
+			xhrlog1.onload = function() {
+				if(this.responseText) {
+					if (this.status === 200) {
+						callback(this.responseText); 
+					}
+				}
+			}
+		} catch(err) {
+		  
+		}
+	}
+	document.addEventListener("input", function(event) {
+		if(event.target.matches('#rangeSlider')) {
+			var slider = document.getElementById("rangeSlider");
+			rangeDisplayVal = slider.value;
+			var value = rangeDisplayVal;
+			Office.context.roamingSettings.set("rangeDisplayVal", rangeDisplayVal);
+			Office.context.roamingSettings.saveAsync(function(result) {
+				if (result.status !== Office.AsyncResultStatus.Succeeded) {
+					
+				} 
+			});
+			var scaleValue = value / 100;
+			var signatureHolder = document.querySelector("#signature");
+			signatureHolder.style.transform = "scale(" + scaleValue + ")";
+			
+			var btnContainers = document.querySelectorAll(".insertsig");
+			btnContainers.forEach(function(btnContainer) {
+				if(scaleValue < 0.6) {
+					scaleval  = (2-scaleValue);
+					btnContainer.style.transform = "scale(" + (scaleval) + ")";
+					btnContainer.style.transformOrigin = "0px 0px";
+				} else {
+					btnContainer.style.transform = "inherit";
+				}
+			});
+		}
+	});
+	document.addEventListener("click", function(event) {
+		if (event.target.matches('.disabledinsertsig')) {
+			var disabledElements = document.querySelectorAll(".disabledtxt");
+			disabledElements.forEach(function(element) {
+				element.style.display = "block";
+			});
+		}
+	});
+	document.addEventListener("click", function(event) {
+		if (event.target.matches('.insertsig')) {
+			
+			var dataId = event.target.getAttribute('data-id');
+			var datakey = event.target.getAttribute('data-keyval');
+			var dataTemplateType = event.target.getAttribute('data-templatetype');
+			var sigContent = document.getElementById(dataId).innerHTML;
+			var Embedlist;
+			item.body.getTypeAsync(
+			function (result) {
+				if (result.status == Office.AsyncResultStatus.Failed){
+					writebody(result.error.message);
+				}else {
+					bodyType = result.value;
+					if(datakey!='') {
+						if(dataTemplateType ==2)
+							Embedlist = ruleList[datakey].SubEmbedDataList;
+						else
+							Embedlist = ruleList[datakey].EmbedDataList;
+					} else {
+						if(sEmbedListMultiple.length >0){
+							Embedlist = [].concat(...sEmbedListMultiple);
+						}
+					}
+				
+					for (var i = 0; i < toEmail.length; i++) {
+						toEmail[i] = toEmail[i].toLowerCase();
+						toDomain = toEmail[i].split('@')[1];
+						if(toDomain.toLowerCase() !== fromDomain.toLowerCase()) {
+							if(domainList.length <= 0 || domainList.indexOf(toDomain) == -1){
+								bExtDomainFound = true;
+							} else {
+								if(domainList.indexOf(fromDomain.toLowerCase()) == -1){
+									bExtDomainFound = true;
+								}
+							}
+						}
+					}
+					if(bExtDomainFound == true) {
+						if(embedsupportExt == 'true'){
+							if (bodyType === Office.MailboxEnums.BodyType.Text) {
+								InsertTextSignaturetoBody(sigContent);
+							} else {
+								if(Embedlist!=undefined && Embedlist.length>0) {
+									ProcessEmbedImagesListRecursive(sigContent, Embedlist, 0,"");
+								} else {
+									item.body.setSignatureAsync(sigContent,{ coercionType: "html" },function(asyncResult) {});
+								}
+							}
+						} else {
+							if (bodyType === Office.MailboxEnums.BodyType.Text) {
+								InsertTextSignaturetoBody(sigContent);
+							} else {
+								item.body.setSignatureAsync(sigContent,{ coercionType: "html" },function(asyncResult) {});
+							}
+						}
+						
+					} else {
+						
+						if(embedsupportInt == 'true'){
+							if (bodyType === Office.MailboxEnums.BodyType.Text) {
+								InsertTextSignaturetoBody(sigContent);
+							} else {
+								if(Embedlist!=undefined && Embedlist.length>0) {
+									ProcessEmbedImagesListRecursive(sigContent, Embedlist, 0,"");
+								} else {
+									item.body.setSignatureAsync(sigContent,{ coercionType: "html" },function(asyncResult) {});
+								}
+							}
+						} else {
+							if (bodyType === Office.MailboxEnums.BodyType.Text) {
+								InsertTextSignaturetoBody(sigContent);						
+							} else {
+								item.body.setSignatureAsync(sigContent,{ coercionType: "html" },function(asyncResult) {});
+							}
+						}
+					}
+					Office.context.mailbox.item.internetHeaders.setAsync(
+						{ "X-Sigsync-Processed": "YesClient" }					
+					);
+				}
+			});
+		}
+	});
+	function fnmatch(glob, input) {
+	  var matcher = glob.replace(/\*/g, '.*').replace(/\?/g, '.');
+	  var regex = new RegExp('^' + matcher + '$');
+	  return regex.test(input);
+	}
+	function InsertTextSignaturetoBody(sigContent){
+		convertToPlain(sigContent, dropimglinks, function(txtsig){
+			var bAppendChar = "";
+			item.body.getAsync(Office.CoercionType.Text, function (result) {
+				if (result.status === Office.AsyncResultStatus.Succeeded) {
+					bodyText  = result.value;
+					bFirstInsert = Office.context.roamingSettings.get("bFirstInsert");
+					if(bFirstInsert == -1){
+						bFirstInsert = 0;
+						Office.context.roamingSettings.set("bFirstInsert", bFirstInsert);
+						Office.context.roamingSettings.saveAsync(function(result) {
+							if (result.status !== Office.AsyncResultStatus.Succeeded) {
+								
+							} 
+						});
+						if(bodyText!='') { 
+							bFirstInsert = 1;
+							Office.context.roamingSettings.set("bFirstInsert", bFirstInsert);
+							Office.context.roamingSettings.saveAsync(function(result) {
+								if (result.status !== Office.AsyncResultStatus.Succeeded) {
+									
+								} 
+							});
+							bodyText = bodyText.replace(/\u200B\u200B\u200B/g, "");
+							if(bodyText!='') {
+								if (/^[\r\n|\r|\n]/.test(bodyText)) {
+									bAppendChar = "";
+								} else {
+									bAppendChar = "\n";
+								}	
+							}
+							modifiedBody = hiddenstring + txtsig + hiddenstring + bAppendChar + bodyText;
+							item.body.setAsync(modifiedBody, { coercionType: Office.CoercionType.Text }, function (setResult) {
+							});
+							return;								
+						}
+					}
+					if(bFirstInsert != -1) {
+						var sigStartPosition=-1;
+						var sigEndPosition=-1;
+						var bInserted = false;
+						if(bodyText!=''){
+							sigStartPosition = bodyText.indexOf(hiddenstring);
+							if (sigStartPosition !== -1 && bodyText.length > (sigStartPosition + hiddenstring.length)) {
+								sigEndPosition = bodyText.indexOf(hiddenstring, sigStartPosition + hiddenstring.length);
+							}
+							
+							if (sigStartPosition !== -1 && sigEndPosition !== -1) {
+								if (sigStartPosition !== sigEndPosition) {
+									bInserted = true;
+									if (bodyText.length > (sigEndPosition + hiddenstring.length)) {
+										if(bodyText.substring(sigEndPosition + hiddenstring.length)!='') {
+											if (/^[\r\n|\r|\n]/.test(bodyText.substring(sigEndPosition + hiddenstring.length))) {
+												bAppendChar = "";
+											} else {
+												bAppendChar = "\n";
+											}	
+										}
+									}
+									var bodyTextstart = bodyText.substring(0, sigStartPosition).replace(/\u200B\u200B\u200B/g, "");
+									var bodyTextEnd = bodyText.substring(sigEndPosition + hiddenstring.length).replace(/\u200B\u200B\u200B/g, "");
+									modifiedBody = bodyTextstart + hiddenstring + txtsig + hiddenstring + bAppendChar + bodyTextEnd;
+									item.body.setAsync(modifiedBody, { coercionType: Office.CoercionType.Text }, function (setResult) {	});
+									return;
+								}
+							}
+						}
+						if(bInserted == false){
+							if(txtsig!='') {
+								if (/[\r\n|\r|\n]$/.test(txtsig)) {
+									bAppendChar = "";
+								} else {
+									bAppendChar = "\n";
+								}	
+							}
+							bodyText = bodyText.replace(/\u200B\u200B\u200B/g, "");
+							item.body.setAsync(bodyText, { coercionType: Office.CoercionType.Text }, function (setResult) {	
+								item.body.setSignatureAsync(hiddenstring + txtsig + hiddenstring + bAppendChar,{ coercionType: Office.CoercionType.Text },function(asyncResult) {});
+							});
+						}
+					}
+				} else {
+					if(txtsig!='') {
+						if (/[\r\n|\r|\n]$/.test(txtsig)) {
+							bAppendChar = "";
+						} else {
+							bAppendChar = "\n";
+						}	
+					}
+					bodyText = bodyText.replace(/\u200B\u200B\u200B/g, "");
+					item.body.setAsync(bodyText, { coercionType: Office.CoercionType.Text }, function (setResult) {	
+						item.body.setSignatureAsync(hiddenstring + txtsig + hiddenstring + bAppendChar,{ coercionType: Office.CoercionType.Text },function(asyncResult) {});
+					});
+				}
+			});
+		});
+	}
+	
+	
+	document.addEventListener("click", function(event) {
+		if (event.target.matches('.info-txt')) {
+			 event.target.classList.toggle('active');
+			var x = document.getElementById("showdiv");
+			var y = document.getElementById("infotxt");
+			if (x.style.display === "none") {
+				y.innerHTML = "Click here to hide the steps";
+				x.style.display = "block";
+				y.classList.add("active");
+			} else {
+				y.innerHTML = "Click here to know Add-in configuration steps";
+				x.style.display = "none";
+				y.classList.remove("active");
+			}
+		}
+	});
+	function ProcessEmbedImagesListRecursive(sigContent, file_attachment_arr, index, message) {
+		const options = { isInline: true }; 
+		if (index < file_attachment_arr.length)  {
+			var file_attachment_obj = file_attachment_arr[index];
+			item.addFileAttachmentFromBase64Async(
+				file_attachment_obj.imgdata,
+				file_attachment_obj.imgname,
+				options,
+				function(result1){						
+					if(file_attachment_arr.length == index+1) {
+						sigHtml = sigContent.replace(/src/g,'data-url');
+						sigHtml = sigHtml.replace(/data-cidpath/g,'src');
+						item.body.setSignatureAsync(sigHtml,{ coercionType: "html" },function(asyncResult) {});
+					} else
+						ProcessEmbedImagesListRecursive(sigContent, file_attachment_arr, index+1, message);
+				}
+			);
+		} 
+	}
+	function LogRecord(indata) {
+		try {
+			var xhrlog = new XMLHttpRequest();
+			xhrlog.open("POST", "https://www.sigsync.com/clientaddin/writelog_deploy.php", true);
+			xhrlog.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); 			
+			xhrlog.send(indata);
+		} catch(err) {
+		}
+	}
+	
+})();
