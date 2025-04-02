@@ -1,0 +1,5 @@
+{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "outlookaddin-rameshe92s-projects.vercel.app",
+  "Id": "0301c740-3d32-4a09-b20a-c67dd3567060"
+}
